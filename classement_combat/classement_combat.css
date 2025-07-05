@@ -1,0 +1,113 @@
+@import url(https://fr.getfonts.net/allfont.css?fonts=courier-new);
+
+@font-face {
+  font-family: 'Brigsa';
+  src: url('../fonts/Brigsa-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../img/fond3.PNG");
+    background-repeat: no-repeat;
+    background-position: center center; /* centre l'image */
+    background-size: cover; /* adapte la taille pour couvrir tout le div */
+    margin: 0;
+    padding: 30px;
+    color: #2c3e50;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    font-family: 'Brigsa', sans-serif;
+  }
+
+  h2{
+    font-family: 'Brigsa', sans-serif;
+  }
+  
+  .ranking-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .ranking-column {
+    flex: 1;
+    min-width: 250px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ranking-column h2 {
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  
+  .ranking-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .ranking-card {
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .ranking-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .ranking-card .rank {
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 40px;
+  }
+  
+  .ranking-card .name {
+    flex: 1;
+  }
+  
+.btn-home {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.btn-home:hover {
+    background-color: #dadddf;
+}
+
+.name{
+  font-family: 'Courier New', arial;
+}
+
+.rank{
+  font-family: 'Courier New', arial;
+}

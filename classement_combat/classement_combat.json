@@ -1,0 +1,74 @@
+[
+    {
+        "nom": "Bastigor",
+        "attribut": "Glace",
+        "max_stats":{
+            "pv":"17446",
+            "def":"2203",
+            "atk":"3091"
+        }
+    },
+    {
+        "nom": "Frostalion",
+        "attribut": "Glace",
+        "max_stats":{
+            "pv":"17446",
+            "def":"2203",
+            "atk":"3227"
+        }
+    },
+    {
+        "nom": "Jetragon",
+        "attribut": "Dragon",
+        "max_stats":{
+            "pv":"16015",
+            "def":"2112",
+            "atk":"3227"
+        }
+    },
+    {
+        "nom": "Frostalion Noct",
+        "attribut": "Ténèbre",
+        "max_stats":{
+            "pv":"17446",
+            "def":"2340",
+            "atk":"3227"
+        }
+    },
+    {
+        "nom": "Paladius",
+        "attribut": "Normal",
+        "max_stats":{
+            "pv":"16988",
+            "def":"2477",
+            "atk":"2974"
+        }
+    },
+    {
+        "nom": "Necromus",
+        "attribut": "Ténèbre",
+        "max_stats":{
+            "pv":"16988",
+            "def":"2203",
+            "atk":"3324"
+        }
+    },
+    {
+        "nom": "Bellanoir Libero",
+        "attribut": "Ténèbre",
+        "max_stats":{
+            "pv":"16502",
+            "def":"2021",
+            "atk":"3422"
+        }
+    },
+    {
+        "nom": "Shadowbeak",
+        "attribut": "Ténèbre",
+        "max_stats":{
+            "pv":"16502",
+            "def":"2401",
+            "atk":"2974"
+        }
+    }
+]
