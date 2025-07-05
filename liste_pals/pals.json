@@ -1,0 +1,378 @@
+[
+    {
+        "nom": "Bastigor",
+        "attribut":"Glace",
+        "base_stats": {
+            "pv":"140",
+            "def":"120",
+            "attaque_dist": "130",
+            "endurance":"270"
+        },
+        "best_atk":{
+            "Impact glacial":{
+                "type":"Glace",
+                "dégats":"190",
+                "cooldown":"52 secondes",
+                "transferrable":"Non"
+            },
+            "Chute de diamant":{
+                "type":"Glace",
+                "dégats":"160",
+                "cooldown":"60 secondes",
+                "transferrable":"Oui"
+            },
+            "Double Morsure Blizzard":{
+                "type":"Glace",
+                "dégats":"200",
+                "cooldown":"60 secondes",
+                "transferrable":"Oui"
+            }
+        },
+        "dps_max":{
+            "confiance":"10",
+            "etoiles":"4",
+            "niveau":"65",
+            "ames_pal":"Toutes",
+            "passifs":{
+                "premier_passif":"Vampire",
+                "deuxieme_passif":"Légende",
+                "troisieme_passif":"Colère Divine",
+                "quatrieme_passif":"Sérénité"
+            }
+        },
+         "max_stats":{
+            "pv":"17446",
+            "def":"2203",
+            "atk":"3091"
+        }   
+    },
+    {
+        "nom": "Frostalion",
+        "attribut":"Glace",
+        "base_stats": {
+            "pv":"140",
+            "def":"120",
+            "attaque_dist": "140",
+            "endurance":"300"
+        },
+        "best_atk":{
+            "Double morsure blizzard":{
+                "type":"Glace",
+                "dégats":"200",
+                "cooldown":"60 secondes",
+                "transferrable":"Oui"
+            },
+            "Chute de diamant":{
+                "type":"Normal",
+                "dégats":"160",
+                "cooldown":"60 secondes",
+                "transferrable":"Oui"
+            },
+            "Morsure du blizzard":{
+                "type":"Glace",
+                "dégats":"130",
+                "cooldown":"45 secondes",
+                "transferrable":"Oui"
+            }
+        },
+        "dps_max":{
+            "confiance":"10",
+            "etoiles":"4",
+            "niveau":"65",
+            "ames_pal":"Toutes",
+            "passifs":{
+                "premier_passif":"Vampire",
+                "deuxieme_passif":"Légende",
+                "troisieme_passif":"Colère Divine",
+                "quatrieme_passif":"Sérénité"
+            }
+        },
+        "max_stats":{
+            "pv":"17446",
+            "def":"2203",
+            "atk":"3227"
+        }
+    },
+    {
+        "nom": "Jetragon",
+        "attribut":"Dragon",
+        "base_stats": {
+            "pv":"110",
+            "def":"110",
+            "attaque_dist": "140",
+            "endurance":"100"
+        },
+        "best_atk":{
+            "Météore draconique":{
+                "type":"Dragon",
+                "dégats":"150",
+                "cooldown":"55 secondes",
+                "transferrable":"Oui"
+            },
+            "Pluie de météorites":{
+                "type":"Dragon",
+                "dégats":"160",
+                "cooldown":"55 secondes",
+                "transferrable":"Oui"
+            },
+            "Tranche-faisceau":{
+                "type":"Dragon",
+                "dégats":"130",
+                "cooldown":"45 secondes",
+                "transferrable":"Oui"
+            }
+        },
+        "dps_max":{
+            "confiance":"10",
+            "etoiles":"4",
+            "niveau":"65",
+            "ames_pal":"Toutes",
+            "passifs":{
+                "premier_passif":"Vampire",
+                "deuxieme_passif":"Légende",
+                "troisieme_passif":"Colère Divine",
+                "quatrieme_passif":"Sérénité"
+            }
+        },
+        "max_stats":{
+            "pv":"16015",
+            "def":"2112",
+            "atk":"3227"
+        }
+    },
+    {
+        "nom": "Frostalion Noct",
+        "attribut":"Ténèbre",
+        "base_stats": {
+            "pv":"140",
+            "def":"135",
+            "attaque_dist": "140",
+            "endurance":"300"
+        },
+        "best_atk":{
+            "Légion sombre":{
+                "type":"Ténèbre",
+                "dégats":"160",
+                "cooldown":"45 secondes",
+                "transferrable":"Oui"
+            },
+            "Laser noir":{
+                "type":"Ténèbre",
+                "dégats":"150",
+                "cooldown":"55 secondes",
+                "transferrable":"Oui"
+            },
+            "Balle cauchemar":{
+                "type":"Ténèbre",
+                "dégats":"100",
+                "cooldown":"30 secondes",
+                "transferrable":"Oui"
+            }
+        },
+        "dps_max":{
+            "confiance":"10",
+            "etoiles":"4",
+            "niveau":"65",
+            "ames_pal":"Toutes",
+            "passifs":{
+                "premier_passif":"Vampire",
+                "deuxieme_passif":"Légende",
+                "troisieme_passif":"Colère Divine",
+                "quatrieme_passif":"Sérénité"
+            }
+        },
+        "max_stats":{
+            "pv":"17446",
+            "def":"2340",
+            "atk":"3227"
+        }
+    },
+    {
+        "nom": "Paladius",
+        "attribut":"Normal",
+        "base_stats": {
+            "pv":"130",
+            "def":"145",
+            "attaque_dist": "120",
+            "endurance":"400"
+        },
+        "best_atk":{
+            "Eclat sacré":{
+                "type":"Normal",
+                "dégats":"120",
+                "cooldown":"30 secondes",
+                "transferrable":"Oui"
+            },
+            "Hyper rayon":{
+                "type":"Normal",
+                "dégats":"150",
+                "cooldown":"55 secondes",
+                "transferrable":"Oui"
+            },
+            "Lance sacrée":{
+                "type":"Normal",
+                "dégats":"120",
+                "cooldown":"40 secondes",
+                "transferrable":"Non"
+            }
+        },
+        "dps_max":{
+            "confiance":"10",
+            "etoiles":"4",
+            "niveau":"65",
+            "ames_pal":"Toutes",
+            "passifs":{
+                "premier_passif":"Vampire",
+                "deuxieme_passif":"Légende",
+                "troisieme_passif":"Colère Divine",
+                "quatrieme_passif":"Sérénité"
+            }
+        },
+        "max_stats":{
+            "pv":"16988",
+            "def":"2477",
+            "atk":"2974"
+        }
+    },
+    {
+        "nom": "Necromus",
+        "attribut":"Ténèbre",
+        "base_stats": {
+            "pv":"130",
+            "def":"120",
+            "attaque_dist": "145",
+            "endurance":"350"
+        },
+        "best_atk":{
+            "Lance double":{
+                "type":"Ténèbre",
+                "dégats":"120",
+                "cooldown":"40 secondes",
+                "transferrable":"Non"
+            },
+            "Laser noir":{
+                "type":"Ténèbre",
+                "dégats":"150",
+                "cooldown":"55 secondes",
+                "transferrable":"Oui"
+            },
+            "Apocalypse":{
+                "type":"Ténèbre",
+                "dégats":"110",
+                "cooldown":"55 secondes",
+                "transferrable":"Oui"
+            }
+        },
+        "dps_max":{
+            "confiance":"10",
+            "etoiles":"4",
+            "niveau":"65",
+            "ames_pal":"Toutes",
+            "passifs":{
+                "premier_passif":"Vampire",
+                "deuxieme_passif":"Légende",
+                "troisieme_passif":"Colère Divine",
+                "quatrieme_passif":"Sérénité"
+            }
+        },
+        "max_stats":{
+            "pv":"16988",
+            "def":"2203",
+            "atk":"3324"
+        }
+    },
+    {
+        "nom": "Bellanoir Libero",
+        "attribut":"Ténèbre",
+        "base_stats": {
+            "pv":"120",
+            "def":"100",
+            "attaque_dist": "150",
+            "endurance":"100"
+        },
+        "best_atk":{
+            "Floraison cauchemardesque":{
+                "type":"Ténèbre",
+                "dégats":"160",
+                "cooldown":"50 secondes",
+                "transferrable":"Non"
+            },
+            "Valse enflammée":{
+                "type":"Ténèbre",
+                "dégats":"130",
+                "cooldown":"45 secondes",
+                "transferrable":"Non"
+            },
+            "Apocalypse":{
+                "type":"Ténèbre",
+                "dégats":"110",
+                "cooldown":"55 secondes",
+                "transferrable":"Oui"
+            }
+        },
+        "dps_max":{
+            "confiance":"10",
+            "etoiles":"4",
+            "niveau":"65",
+            "ames_pal":"Toutes",
+            "passifs":{
+                "premier_passif":"Vampire",
+                "deuxieme_passif":"Légende",
+                "troisieme_passif":"Colère Divine",
+                "quatrieme_passif":"Sérénité"
+            }
+        },
+        "max_stats":{
+            "pv":"16502",
+            "def":"2021",
+            "atk":"3422"
+        }
+    },
+    {
+        "nom": "Shadowbeak",
+        "attribut":"Ténèbre",
+        "base_stats": {
+            "pv":"120",
+            "def":"140",
+            "attaque_dist": "120",
+            "endurance":"250"
+        },
+        "best_atk":{
+            "Catastrophe Divine":{
+                "type":"Ténèbre",
+                "dégats":"160",
+                "cooldown":"45 secondes",
+                "transferrable":"Non"
+            },
+            "Laser noir":{
+                "type":"Ténèbre",
+                "dégats":"150",
+                "cooldown":"55 secondes",
+                "transferrable":"Oui"
+            },
+            "Catastrophe Divine II":{
+                "type":"Ténèbre",
+                "dégats":"170",
+                "cooldown":"45 secondes",
+                "transferrable":"Non"
+            }
+        },
+        "dps_max":{
+            "confiance":"10",
+            "etoiles":"4",
+            "niveau":"65",
+            "ames_pal":"Toutes",
+            "passifs":{
+                "premier_passif":"Vampire",
+                "deuxieme_passif":"Légende",
+                "troisieme_passif":"Colère Divine",
+                "quatrieme_passif":"Sérénité"
+            }
+        },
+        "max_stats":{
+            "pv":"16502",
+            "def":"2401",
+            "atk":"2974"
+        }
+    }
+]
