@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 <p><strong>Dégats</strong>: ${details.dégats}</p>
                                 <p><strong>Cooldown</strong>: ${details.cooldown}</p>
                                 <p><strong>Tranférable</strong>: ${details.transferrable}</p>
+                                ${details.bonus !== undefined ? `<p><strong>Bonus</strong>: ${details.bonus}</p>` : ''}
                             </div>
                         `).join('')}
                     </div>

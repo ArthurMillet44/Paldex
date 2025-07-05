@@ -85,7 +85,7 @@
         "type":"Feu",
         "puissance":"120",
         "cooldown":"40 secondes",
-        "dps":"102,38 (Si embrasement)",
+        "dps":"102,38",
         "Exclusive":"Non"
     },
     {
@@ -151,6 +151,94 @@
         "puissance":"135",
         "cooldown":"45 secondes",
         "dps":"61,35",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Fracasse-sol",
+        "type":"Terre",
+        "puissance":"140",
+        "cooldown":"35 secondes",
+        "dps":"55,1",
+        "Exclusive":"Oui"
+    },
+    {
+        "nom":"Frappe éngergique",
+        "type":"Terre",
+        "puissance":"120",
+        "cooldown":"28 secondes",
+        "dps":"78,17",
+        "Exclusive":"Oui"
+    },
+    {
+        "nom":"Coup de pied tournoyant",
+        "type":"Terre",
+        "puissance":"100",
+        "cooldown":"21 secondes",
+        "dps":"43,20",
+        "Exclusive":"Oui"
+    },
+    {
+        "nom":"Serpent marin",
+        "type":"Eau",
+        "puissance":"145",
+        "cooldown":"30 secondes",
+        "dps":"70,01",
+        "Exclusive":"Oui"
+    },
+    {
+        "nom":"Coupe-sol",
+        "type":"Terre",
+        "puissance":"145",
+        "cooldown":"35 secondes",
+        "dps":"31,38",
+        "Exclusive":"Oui"
+    },
+    {
+        "nom":"Tranche faisceau",
+        "type":"Dragon",
+        "puissance":"130",
+        "cooldown":"45 secondes",
+        "dps":"200,85",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Lierre circulaire",
+        "type":"Plante",
+        "puissance":"120",
+        "cooldown":"40 secondes",
+        "dps":"39,90",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Mur de flamme",
+        "type":"Feu",
+        "puissance":"100",
+        "cooldown":"30 secondes",
+        "dps":"84,05",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Météore draconique",
+        "type":"Dragon",
+        "puissance":"150",
+        "cooldown":"55 secondes",
+        "dps":"48,15",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Comète",
+        "type":"Dragon",
+        "puissance":"110",
+        "cooldown":"35 secondes",
+        "dps":"40,10",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Canon explosif",
+        "type":"Dragon",
+        "puissance":"100",
+        "cooldown":"30 secondes",
+        "dps":"130,23",
         "Exclusive":"Non"
     }
 ]

@@ -70,5 +70,69 @@
             "def":"2401",
             "atk":"2974"
         }
+    },
+    {
+        "nom": "Anubis",
+        "attribut": "Terre",
+        "max_stats":{
+            "pv":"16502",
+            "def":"2021",
+            "atk":"3091"
+        }
+    },
+    {
+        "nom": "Jormuntide Ignis",
+        "attribut": "Feu",
+        "max_stats":{
+            "pv":"16988",
+            "def":"2021",
+            "atk":"3091"
+        }
+    },
+    {
+        "nom": "Selyne",
+        "attribut": "Normal-Ténèbre",
+        "max_stats":{
+            "pv":"16988",
+            "def":"2112",
+            "atk":"2916"
+        }
+    },
+    {
+        "nom": "Knocklem",
+        "attribut": "Terre",
+        "max_stats":{
+            "pv":"15820",
+            "def":"2340",
+            "atk":"2857"
+        }
+    },
+    {
+        "nom": "Neptilius",
+        "attribut": "Eau",
+        "max_stats":{
+            "pv":"15820",
+            "def":"2249",
+            "atk":"3324"
+        }
+    },
+    {
+        "nom": "Xénolord",
+        "attribut": "Dragon-Ténèbre",
+        "max_stats":{
+            "pv":"16988",
+            "def":"2203",
+            "atk":"2974"
+        }
+    }
+    ,
+    {
+        "nom": "Orserk",
+        "attribut": "Electrique",
+        "max_stats":{
+            "pv":"15528",
+            "def":"2021",
+            "atk":"3091"
+        }
     }
 ]

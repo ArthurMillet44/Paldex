@@ -155,6 +155,106 @@
                 "passif1": {
                     "nom": "Brave",
                     "Description": "Attaque +15%"
+                },
+                "passif2": {
+                    "nom": "Sang de dragon",
+                    "Description": "Les dégâts de type Dragon augmentent de +10%"
+                },
+                "passif3": {
+                    "nom": "Tueur de dragon",
+                    "Description": "Les dégâts provenant de type Dragon sont réduits de -10%"
+                },
+                "passif4": {
+                    "nom": "Grimoire",
+                    "Description": "Les dégâts de type Ténèbres augmentent de +10%"
+                },
+                "passif5": {
+                    "nom": "Solaire",
+                    "Description": "Les dégâts provenant de type Ténèbres sont réduits de -10%"
+                },
+                "passif6": {
+                    "nom": "Condensateur",
+                    "Description": "Les dégâts de type Foudre augmentent de +10%"
+                },
+                "passif7": {
+                    "nom": "Isolant",
+                    "Description": "Les dégâts provenant de type Foudre sont réduits de -10%"
+                },
+                "passif8": {
+                    "nom": "Hydrophile",
+                    "Description": "Les dégâts de type Eau augmentent de +10%"
+                },
+                "passif9": {
+                    "nom": "Imperméabilité",
+                    "Description": "Les dégâts provenant de type Eau sont réduits de -10%"
+                },
+                "passif10": {
+                    "nom": "Pyromane",
+                    "Description": "Les dégâts de type Feu augmentent de +10%"
+                },
+                "passif11": {
+                    "nom": "Hyperpigmentation",
+                    "Description": "Les dégâts provenant de type Feu sont réduits de -10%"
+                },
+                "passif12": {
+                    "nom": "Fragrance boisée",
+                    "Description": "Les dégâts de type Plante augmentent de +10%"
+                },
+                "passif13": {
+                    "nom": "Anti-irritations",
+                    "Description": "Les dégâts provenant de type Plante sont réduits de -10%"
+                },
+                "passif14": {
+                    "nom": "Sang froid",
+                    "Description": "Les dégâts de type Glace augmentent de +10%"
+                },
+                "passif15": {
+                    "nom": "Sang chaud",
+                    "Description": "Les dégâts provenant de type Glace sont réduits de -10%"
+                },
+                "passif16": {
+                    "nom": "Force tellurique",
+                    "Description": "Les dégâts de type Terre augmentent de +10%"
+                },
+                "passif17": {
+                    "nom": "Constitution parasismique",
+                    "Description": "Les dégâts provenant de type Terre sont réduits de -10%"
+                },
+                "passif18": {
+                    "nom": "Stoïque",
+                    "Description": "Les dégâts Non-élémentaire augmentent de +10%"
+                },
+                "passif19": {
+                    "nom": "Anormal",
+                    "Description": "Les dégâts provenant de type Non-élémentaire sont réduits de -10%"
+                },
+                "passif20": {
+                    "nom": "Sadique",
+                    "Description": "Attaque +15% Défense -15%"
+                },
+                "passif21": {
+                    "nom": "Grossier",
+                    "Description": "Attaque +15% Vitesse de travail -10%"
+                },
+                "passif22": {
+                    "nom": "Rentre-dedans",
+                    "Description": "Attaque +10% Défense -10%"
+                },
+                "passif23": {
+                    "nom": "Courageux",
+                    "Description": "Attaque +10%"
+                },
+                "passif24": {
+                    "nom": "Masochiste",
+                    "Description": "Défense +15% Attaque -15%"
+                },
+                "passif25": {
+                    "nom": "Peau dure",
+                    "Description": "Défense +10%"
+                },
+                "passif26": {
+                    "nom": "Organisme inconnu",
+                    "Description": "Attaque +10%, Réduction des dégâts de type Feu et Foudre de 15%"
                 }
             },
             "travail": {
@@ -165,6 +265,18 @@
                 "passif2": {
                     "nom": "Sérieux",
                     "Description": "Vitesse de travail +20%"
+                },
+                "passif3": {
+                    "nom": "Soumis",
+                    "Description": "Vitesse de travail +30% Attaque -30%"
+                },
+                "passif4": {
+                    "nom": "Vaniteux",
+                    "Description": "Vitesse de travail +10% Défense -10%"
+                },
+                "passif5": {
+                    "nom": "Positif",
+                    "Description": "Les points MEN diminuent plus lentement +10%"
                 }
             },
             "deplacement": {
@@ -175,6 +287,10 @@
                 "passif2": {
                     "nom": "Coursier",
                     "Description": "Vitesse de déplacement +20%"
+                },
+                "passif3": {
+                    "nom": "Frugal",
+                    "Description": "Le degré de satiété diminue plus lentement +10%"
                 }
             }
         }

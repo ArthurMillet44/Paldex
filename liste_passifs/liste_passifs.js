@@ -1,9 +1,17 @@
-// Conteneur global pour les données chargées
+// Données JSON
 let data = null;
 
-// Fonction pour afficher les passifs dans une colonne
-function afficherPassifs(type, category) {
-    if (!data) return; // Pas de données chargées
+// Catégorie active pour chaque type de rareté
+let currentCategories = {
+    commun: 'combat',
+    rare: 'combat',
+    legendaire: 'combat'
+};
+
+// Fonction d’affichage
+function afficherPassifs(type) {
+    const category = currentCategories[type];
+    if (!data) return;
 
     const listId = {
         legendaire: 'legendaire-list',
@@ -17,66 +25,90 @@ function afficherPassifs(type, category) {
     else if (type === 'commun') key = 'passifs_communs';
 
     const container = document.getElementById(listId[type]);
-    container.innerHTML = ''; // Vide la liste
+    container.innerHTML = '';
 
     if (!data[key] || !data[key][category]) {
         container.innerHTML = '<p>Aucun passif disponible</p>';
         return;
     }
 
-    const passifs = data[key][category];
+    const passifs = Object.values(data[key][category]);
+    const maxInitial = 3;
+    const hasMore = passifs.length > maxInitial;
 
-    for (const passifKey in passifs) {
-        if (passifs.hasOwnProperty(passifKey)) {
-            const passif = passifs[passifKey];
+    const visiblePassifs = hasMore ? passifs.slice(0, maxInitial) : passifs;
+    const hiddenPassifs = hasMore ? passifs.slice(maxInitial) : [];
+
+    visiblePassifs.forEach(passif => {
+        const div = document.createElement('div');
+        div.className = 'passif-item';
+        div.innerHTML = `<h3>${passif.nom}</h3><p>${passif.Description}</p>`;
+        container.appendChild(div);
+    });
+
+    if (hasMore) {
+        const hiddenContainer = document.createElement('div');
+        hiddenContainer.className = 'hidden-passifs';
+        hiddenContainer.style.display = 'none';
+
+        hiddenPassifs.forEach(passif => {
             const div = document.createElement('div');
             div.className = 'passif-item';
             div.innerHTML = `<h3>${passif.nom}</h3><p>${passif.Description}</p>`;
-            container.appendChild(div);
-        }
+            hiddenContainer.appendChild(div);
+        });
+
+        container.appendChild(hiddenContainer);
+
+        const btn = document.createElement('button');
+        btn.className = 'voir-plus-btn';
+        btn.textContent = 'Voir plus';
+
+        btn.addEventListener('click', (event) => {
+            event.stopPropagation();
+            const isHidden = hiddenContainer.style.display === 'none';
+            hiddenContainer.style.display = isHidden ? 'block' : 'none';
+            btn.textContent = isHidden ? 'Voir moins' : 'Voir plus';
+        });
+
+        container.appendChild(btn);
     }
 }
 
-// Fonction d'initialisation après chargement des données JSON
+// Initialisation
 function init() {
-    // Afficher combat par défaut dans chaque colonne
     ['legendaire', 'rare', 'commun'].forEach(type => {
-        afficherPassifs(type, 'combat');
-    });
+        afficherPassifs(type);
 
-    // Gestion des clics sur boutons
-    document.querySelectorAll('.column').forEach(col => {
-        const buttons = col.querySelectorAll('button');
-        const colId = col.id;
-        let type;
-        if (colId.includes('legendaire')) type = 'legendaire';
-        else if (colId.includes('rare')) type = 'rare';
-        else if (colId.includes('commun')) type = 'commun';
-
-        buttons.forEach(button => {
+        // Ciblage des boutons dans la bonne colonne
+        document.querySelectorAll(`#${type}-column .buttons button`).forEach(button => {
             button.addEventListener('click', () => {
-                // Désactive tous les boutons de la colonne
-                buttons.forEach(b => b.classList.remove('active'));
-                // Active le bouton cliqué
+                const category = button.getAttribute('data-category');
+                currentCategories[type] = category;
+
+                // Met à jour les boutons actifs uniquement pour cette colonne
+                document.querySelectorAll(`#${type}-column .buttons button`).forEach(btn => {
+                    btn.classList.remove('active');
+                });
                 button.classList.add('active');
-                // Affiche les passifs correspondant
-                afficherPassifs(type, button.getAttribute('data-category'));
+
+                afficherPassifs(type);
             });
         });
     });
 }
 
-// Chargement du JSON externe via fetch
+// Chargement des données
 fetch('passifs.json')
     .then(response => {
-        if (!response.ok) throw new Error("Erreur lors du chargement du fichier JSON");
+        if (!response.ok) throw new Error("Erreur de chargement JSON");
         return response.json();
     })
     .then(jsonData => {
-        data = jsonData[0]; // Ton JSON est un tableau contenant un objet, on prend l'objet à l'index 0
+        data = jsonData[0];
         init();
     })
     .catch(error => {
         console.error('Erreur:', error);
-        alert("Impossible de charger les données des passifs.");
+        alert("Erreur lors du chargement des passifs.");
     });

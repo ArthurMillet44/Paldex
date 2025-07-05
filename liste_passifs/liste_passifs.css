@@ -124,3 +124,33 @@ p{
     background-color: #dadddf;
 }
 
+/* Style général du bouton */
+#legendaire-list button,
+#rare-list button,
+#commun-list button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #ffffff; /* Bleu par défaut */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Au survol */
+#legendaire-list button:hover,
+#rare-list button:hover,
+#commun-list button:hover {
+    background-color: #3A5BA0;
+    color: white;
+}
+
+/* Optionnel : si tu veux un style spécifique pour le bouton "voir plus/moins", 
+tu peux leur donner une classe dans le JS, par exemple `.voir-plus-btn` */
+.voir-plus-btn {
+    margin-top: 10px;
+    display: inline-block;
+}
+
