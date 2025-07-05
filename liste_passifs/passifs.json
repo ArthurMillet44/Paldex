@@ -1,0 +1,182 @@
+[
+    {
+        "passifs_legendaires": {
+            "combat": {
+                "passif1": {
+                    "nom": "Vampire",
+                    "Description": "Ne dort pas la nuit et récupère de la vie en fonction des dégats infligés"
+                },
+                "passif2": {
+                    "nom": "Colère Divine",
+                    "Description": "Attaque +30% et Defense +5%"
+                },
+                "passif3": {
+                    "nom": "Légende",
+                    "Description": "Attaque +20%, Defense +20% et Vitesse de déplacement +15%"
+                },
+                "passif4": {
+                    "nom": "Shenron",
+                    "Description": "Attaque +20%, Defense +20% et Vitesse de déplacement +15%"
+                },
+                "passif5": {
+                    "nom": "Sorcière",
+                    "Description": "Attaque +20%, Defense +20% et Vitesse de déplacement +15%"
+                },
+                "passif6": {
+                    "nom": "Trophée des flots",
+                    "Description": "Attaque +20%, Defense +20% et Vitesse de déplacement +15%"
+                }
+            },
+            "travail": {
+                "passif1": {
+                    "nom": "Maîtrise exceptionnelle",
+                    "Description": "Vitesse de travail +75%"
+                }
+            },
+            "deplacement": {
+                "passif1": {
+                    "nom": "Sprinter",
+                    "Description": "Vitesse de déplacement +50%"
+                }
+            }
+        },
+        "passifs_rares": {
+            "combat": {
+                "passif1": {
+                    "nom": "Féroce",
+                    "Description": "Attaque +20%"
+                },
+                "passif2": {
+                    "nom": "Impulsif",
+                    "Description": "Attaque +30% et Vitesse de travail -30%"
+                },
+                "passif3": {
+                    "nom": "Dragon divin",
+                    "Description": "Les dégâts de type Dragon augmentent de +20%"
+                },
+                "passif4": {
+                    "nom": "Seigneur des enfers",
+                    "Description": "Les dégâts de type Ténèbres augmentent de +20%"
+                },
+                "passif5": {
+                    "nom": "Seigneur de la foudre",
+                    "Description": "Les dégâts de type Foudre augmentent de +20%"
+                },
+                "passif6": {
+                    "nom": "Seigneur de la mer",
+                    "Description": "Les dégâts de type Eau augmentent de +20%"
+                },
+                "passif7": {
+                    "nom": "Empereur des flammes",
+                    "Description": "Les dégâts de type Feu augmentent de +20%"
+                },
+                "passif8": {
+                    "nom": "Empereur spirituel",
+                    "Description": "Les dégâts de type Plante augmentent de +20%"
+                },
+                "passif9": {
+                    "nom": "Empereur de glace",
+                    "Description": "Les dégâts de type Glace augmentent de +20%"
+                },
+                "passif10": {
+                    "nom": "Empereur de la terre",
+                    "Description": "Les dégâts de type Terre augmentent de +20%"
+                },
+                "passif11": {
+                    "nom": "Empereur céleste",
+                    "Description": "Les dégâts Non-élémentaire augmentent de +20%"
+                },
+                "passif12": {
+                    "nom": "Corps robuste",
+                    "Description": "Défense +20%"
+                },
+                "passif13": {
+                    "nom": "Chef d'assaut",
+                    "Description": "L'attaque du joueur augmente de +10%"
+                },
+                "passif14": {
+                    "nom": "Stratège de forteresse",
+                    "Description": "La défense du joueur augmente de +10%"
+                },
+                "passif15": {
+                    "nom": "Chanceux",
+                    "Description": "Vitesse de travail +15% Attaque +15%"
+                }
+            },
+            "travail": {
+                "passif1": {
+                    "nom": "Appliqué",
+                    "Description": "Vitesse de travail +50%"
+                },
+                "passif2": {
+                    "nom": "Chanceux",
+                    "Description": "Vitesse de travail +15% Attaque +15%"
+                },
+                "passif3": {
+                    "nom": "Acharné",
+                    "Description": "Les pointes MEN diminue plus lentement +15%"
+                },
+                "passif4": {
+                    "nom": "Chef d'abattage",
+                    "Description": "La capacité d'abattage du joueur augmente de +25%"
+                },
+                "passif5": {
+                    "nom": "Chef d'extraction",
+                    "Description": "La capacité d'extraction du joueur augmente de +25%"
+                },
+                "passif6": {
+                    "nom": "Motivateur",
+                    "Description": "La productivité du joueur augmente de +25%"
+                }
+            },
+            "deplacement": {
+                "passif1": {
+                    "nom": "Coursier",
+                    "Description": "Vitesse de déplacement +30%"
+                },
+                "passif2": {
+                    "nom": "Infatigable",
+                    "Description": "Endurance maximale +50.0% (Pals montures uniquement)"
+                }
+            },
+            "autre": {
+                "passif1": {
+                    "nom": "Philanthrope",
+                    "Description": "Lorsqu'il est affecté à un ranch, la vitesse de production des œufs augmente de 100.0%"
+                },
+                "passif2": {
+                    "nom": "Nutritionniste",
+                    "Description": "Le degré de satiété diminue plus lentement +15%"
+                }
+            }
+        },
+        "passifs_communs": {
+            "combat": {
+                "passif1": {
+                    "nom": "Brave",
+                    "Description": "Attaque +15%"
+                }
+            },
+            "travail": {
+                "passif1": {
+                    "nom": "Sérieux",
+                    "Description": "Vitesse de travail +15%"
+                },
+                "passif2": {
+                    "nom": "Sérieux",
+                    "Description": "Vitesse de travail +20%"
+                }
+            },
+            "deplacement": {
+                "passif1": {
+                    "nom": "Vif",
+                    "Description": "Vitesse de déplacement +10%"
+                },
+                "passif2": {
+                    "nom": "Coursier",
+                    "Description": "Vitesse de déplacement +20%"
+                }
+            }
+        }
+    }
+]

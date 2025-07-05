@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Liste des Passifs</title>
+    <link rel="stylesheet" href="liste_passifs.css" />
+</head>
+<body>
+    <h1>Liste des Passifs</h1>
+
+    <div class="container">
+        <div class="column" id="legendaire-column">
+            <h2>Passifs Légendaires</h2>
+            <div class="buttons">
+                <button data-category="combat" class="active">Combat</button>
+                <button data-category="travail">Travail</button>
+                <button data-category="deplacement">Déplacement</button>
+            </div>
+            <div class="passifs-list" id="legendaire-list"></div>
+        </div>
+
+        <div class="column" id="rare-column">
+            <h2>Passifs Rares</h2>
+            <div class="buttons">
+                <button data-category="combat" class="active">Combat</button>
+                <button data-category="travail">Travail</button>
+                <button data-category="deplacement">Déplacement</button>
+            </div>
+            <div class="passifs-list" id="rare-list"></div>
+        </div>
+
+        <div class="column" id="commun-column">
+            <h2>Passifs Communs</h2>
+            <div class="buttons">
+                <button data-category="combat" class="active">Combat</button>
+                <button data-category="travail">Travail</button>
+                <button data-category="deplacement">Déplacement</button>
+            </div>
+            <div class="passifs-list" id="commun-list"></div>
+        </div>
+    </div>
+
+    <script src="liste_passifs.js"></script>
+    <a href="../index.html" class="btn-home">Accueil</a>
+</body>
+</html>
