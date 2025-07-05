@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Classement des attaques</title>
+    <link rel="stylesheet" href="classement_attaques.css">
+</head>
+<body>
+    <h1>Classement des attaques par DPS</h1>
+
+    <label for="type-select">Filtrer par type :</label>
+    <select id="type-select">
+        <option value="Tous">Tous</option>
+        <option value="Terre">Terre</option>
+        <option value="Normal">Normal</option>
+        <option value="Glace">Glace</option>
+        <option value="Eau">Eau</option>
+        <option value="Feu">Feu</option>
+        <option value="Plante">Plante</option>
+        <option value="Ténèbre">Ténèbre</option>
+        <option value="Dragon">Dragon</option>
+        <option value="Electrique">Electrique</option>
+    </select>
+    <label class="checkbox-wrapper">
+        <input type="checkbox" id="exclusive-toggle">
+        Afficher les attaques exclusives
+    </label>
+
+    <div id="attack-ranking" class="ranking-container"></div>
+
+    <a href="../index.html" class="btn-home">Accueil</a>
+    <script src="classement_attaques.js"></script>
+</body>
+</html>

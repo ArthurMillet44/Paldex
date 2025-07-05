@@ -1,0 +1,156 @@
+[
+    {
+        "nom":"Double Morsure Blizzard",
+        "type":"Glace",
+        "puissance":"200",
+        "cooldown":"60 secondes",
+        "dps":"83,33",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Morsure Blizzard",
+        "type":"Glace",
+        "puissance":"130",
+        "cooldown":"45 secondes",
+        "dps":"78,4",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Impact glacial",
+        "type":"Glace",
+        "puissance":"190",
+        "cooldown":"52 secondes",
+        "dps":"87,2",
+        "Exclusive":"Oui"
+    },
+    {
+        "nom":"Chute de diamant",
+        "type":"Glace",
+        "puissance":"160",
+        "cooldown":"60 secondes",
+        "dps":"85,08",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Griffe glacé",
+        "type":"Glace",
+        "puissance":"95",
+        "cooldown":"17 secondes",        
+        "dps":"65,3",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Fracas Rocheux",
+        "type":"Terre",
+        "puissance":"170",
+        "cooldown":"60 secondes",
+        "dps":"75,6",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Tremblement",
+        "type":"Terre",
+        "puissance":"130",
+        "cooldown":"35 secondes",
+        "dps":"69,65",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Tourbillon de sable",
+        "type":"Terre",
+        "puissance":"160",
+        "cooldown":"60 secondes",
+        "dps":"37,58",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Tempête éclair",
+        "type":"Electrique",
+        "puissance":"160",
+        "cooldown":"60 secondes",
+        "dps":"79,5",
+        "Exclusive":"Non"
+    }
+    ,
+    {
+        "nom":"Coup de foudre",
+        "type":"Electrique",
+        "puissance":"120",
+        "cooldown":"40 secondes",
+        "dps":"38,23",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Inferno",
+        "type":"Feu",
+        "puissance":"120",
+        "cooldown":"40 secondes",
+        "dps":"102,38 (Si embrasement)",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Hyper rayon",
+        "type":"Normal",
+        "puissance":"150",
+        "cooldown":"55 secondes",
+        "dps":"65,75",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Laser noir",
+        "type":"Ténèbre",
+        "puissance":"150",
+        "cooldown":"55 secondes",
+        "dps":"65,75",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Hydro laser",
+        "type":"Eau",
+        "puissance":"150",
+        "cooldown":"55 secondes",
+        "dps":"65,75",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Eclabousse-mur",
+        "type":"Eau",
+        "puissance":"120",
+        "cooldown":"40 secondes",
+        "dps":"124,36",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Apocalypse",
+        "type":"Ténèbre",
+        "puissance":"110",
+        "cooldown":"55 secondes",
+        "dps":"79,18",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Boule enflammée",
+        "type":"Feu",
+        "puissance":"150",
+        "cooldown":"55 secondes",
+        "dps":"87,01",
+        "Exclusive":"Non"
+    }
+    ,
+    {
+        "nom":"Pluie volcanique",
+        "type":"Feu",
+        "puissance":"130",
+        "cooldown":"45 secondes",
+        "dps":"55,90",
+        "Exclusive":"Non"
+    },
+    {
+        "nom":"Pluie foudroyante",
+        "type":"Electrique",
+        "puissance":"135",
+        "cooldown":"45 secondes",
+        "dps":"61,35",
+        "Exclusive":"Non"
+    }
+]

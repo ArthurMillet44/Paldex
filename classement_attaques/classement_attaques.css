@@ -1,0 +1,143 @@
+@import url(https://fr.getfonts.net/allfont.css?fonts=courier-new);
+
+@font-face {
+  font-family: 'Brigsa';
+  src: url('../fonts/Brigsa-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../img/fond3.PNG");
+    background-repeat: no-repeat;
+    background-position: center center; /* centre l'image */
+    background-size: cover; /* adapte la taille pour couvrir tout le div */
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    font-family: 'Brigsa', sans-serif;
+}
+
+p, option, select, label{
+    font-family: 'Courier New', arial;
+}
+
+select, label.checkbox-wrapper {
+    margin: 10px;
+    font-size: 14px; /* réduit la taille de police */
+}
+
+.ranking-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* moins d’espace entre les cartes */
+}
+
+.attack-card {
+    background-color: #fff;
+    border: 1px solid #010101;
+    border-radius: 10px;
+    padding: 10px; /* moins de padding */
+    width: 250px; /* réduit la largeur */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    font-size: 13px; /* réduit la taille de tout le texte */
+    transition: transform 0.2s;
+}
+
+.attack-card h2 {
+    font-size: 15px; /* réduit la taille des titres */
+    margin-bottom: 6px;
+}
+
+.attack-card p {
+    margin: 4px 0;
+}
+
+.attack-card:hover {
+    transform: scale(1.02);
+}
+
+.checkbox-wrapper {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
+.btn-home {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.btn-home:hover {
+    background-color: #dadddf;
+}
+
+.attack-card.glace {
+    background-color: #1F2937;
+    color: white;
+}
+
+.attack-card.feu {
+    background-color: #1F2937;
+    color: white;
+}
+
+.attack-card.terre {
+    background-color: #1F2937;
+    color: white;
+}
+
+.attack-card.eau {
+    background-color: #1F2937;
+    color: white;
+}
+
+.attack-card.plante {
+    background-color: #1F2937;
+    color: white;
+}
+
+.attack-card.tenebre {
+    background-color: #1F2937;
+    color: white;
+}
+
+.attack-card.dragon {
+    background-color: #1F2937;
+    color: white;
+}
+
+.attack-card.normal {
+    background-color: #1F2937;
+    color: white;
+}
+
+.attack-card.electrique {
+    background-color: #1F2937;
+    color: white;
+}
+
+.atk-icon {
+    width: 28px;
+    height: 28px;
+}
+
+
