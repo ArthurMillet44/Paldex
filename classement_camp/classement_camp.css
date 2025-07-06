@@ -14,7 +14,7 @@ body {
     background-position: center center; /* centre l'image */
     background-size: cover; /* adapte la taille pour couvrir tout le div */
     margin: 0;
-    padding: 70px;
+    padding: 30px;
     color: #2c3e50;
     text-align: center;
   }
@@ -26,6 +26,10 @@ body {
 
   h2{
     font-family: 'Brigsa', sans-serif;
+  }
+
+  p, option, select, label{
+    font-family: 'Courier New', arial;
   }
   
   .ranking-container {
@@ -168,4 +172,10 @@ body {
 #podium-list .ranking-card {
     width: 30%;
     text-align: center;
+}
+
+.checkbox-wrapper {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 14px;
 }

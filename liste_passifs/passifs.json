@@ -101,6 +101,10 @@
                 "passif15": {
                     "nom": "Chanceux",
                     "Description": "Vitesse de travail +15% Attaque +15%"
+                },
+                "passif16":{
+                    "nom":"Sérénité",
+                    "Description":"Attaque +10% et temps de recharge des compétences -30%"
                 }
             },
             "travail": {
@@ -260,21 +264,17 @@
             "travail": {
                 "passif1": {
                     "nom": "Sérieux",
-                    "Description": "Vitesse de travail +15%"
-                },
-                "passif2": {
-                    "nom": "Sérieux",
                     "Description": "Vitesse de travail +20%"
                 },
-                "passif3": {
+                "passif2": {
                     "nom": "Soumis",
                     "Description": "Vitesse de travail +30% Attaque -30%"
                 },
-                "passif4": {
+                "passif3": {
                     "nom": "Vaniteux",
                     "Description": "Vitesse de travail +10% Défense -10%"
                 },
-                "passif5": {
+                "passif4": {
                     "nom": "Positif",
                     "Description": "Les points MEN diminuent plus lentement +10%"
                 }
