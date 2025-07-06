@@ -1,139 +1,402 @@
 [
-    {
-        "nom":"Knocklem",
-        "competences":{
-            "Collecte":"3",
-            "Transport":"4"
-        },
-        "vitesse":"550",
-        "vitesse_transport":"400",
-        "quantite_nourriture":"600",
-        "perte_nourriture":"1",
-        "nocturne":"Non"
-    },
-    {
-        "nom":"Selyne",
-        "competences":{
-            "Travaux manuels":"4",
-            "Pharmacie":"3",
-            "Transport":"3"
-        },
-        "vitesse":"1000",
-        "vitesse_transport":"275",
-        "quantite_nourriture":"150",
-        "perte_nourriture":"1",
-        "nocturne":"Oui"
-    },
-    {
-        "nom":"Faleris",
-        "competences":{
-            "Allumage":"3",
-            "Transport":"3"
-        },
-        "vitesse":"1000",
-        "vitesse_transport":"500",
-        "quantite_nourriture":"525",
-        "perte_nourriture":"1",
-        "nocturne":"Non"
-    },
-    {
-        "nom":"Helzephyr",
-        "competences":{
-            "Transport":"3"
-        },
-        "vitesse":"700",
-        "vitesse_transport":"425",
-        "quantite_nourriture":"525",
-        "perte_nourriture":"1",
-        "nocturne":"Oui"
-    },
-    {
-        "nom":"Oeil de Cthulhu",
-        "competences":{
-            "Transport":"4"
-        },
-        "vitesse":"900",
-        "vitesse_transport":"600",
-        "quantite_nourriture":"240",
-        "perte_nourriture":"1",
-        "nocturne":"Oui"
-    },
-    {
-        "nom":"Splatterina",
-        "competences":{
-            "Pharmacie":"3",
-            "Transport":"2",
-            "Travaux manuels":"4",
-            "Abattage":"1"
-        },
-        "vitesse":"550",
-        "vitesse_transport":"180",
-        "quantite_nourriture":"150",
-        "perte_nourriture":"1",
-        "nocturne":"Oui"
-    },
-    {
-        "nom":"Anubis",
-        "competences":{
-            "Extraction":"3",
-            "Transport":"2",
-            "Travaux manuels":"4"
-        },
-        "vitesse":"800",
-        "vitesse_transport":"480",
-        "quantite_nourriture":"400",
-        "perte_nourriture":"1",
-        "nocturne":"Non"
-    },
-    {
-        "nom":"Bellanoir",
-        "competences":{
-            "Transport":"2",
-            "Pharmacie":"4",
-            "Travaux manuels":"2"
-        },
-        "vitesse":"600",
-        "vitesse_transport":"400",
-        "quantite_nourriture":"300",
-        "perte_nourriture":"1",
-        "nocturne":"Oui"
-    },
-    {
-        "nom":"Braloha",
-        "competences":{
-            "Collecte":"4",
-            "Semence":"4",
-            "Extraction":"2"
-        },
-        "vitesse":"600",
-        "vitesse_transport":"-1",
-        "quantite_nourriture":"460",
-        "perte_nourriture":"1",
-        "nocturne":"Oui"
-    },
-    {
-        "nom":"Shroomer Noct",
-        "competences":{
-            "Collecte":"2",
-            "Semence":"2",
-            "Abattage":"2",
-            "Travaux manuels":"1"
-        },
-        "vitesse":"720",
-        "vitesse_transport":"-1",
-        "quantite_nourriture":"270",
-        "perte_nourriture":"1",
-        "nocturne":"Oui"
-    },
-    {
-        "nom":"Frostalion Noct",
-        "competences":{
-            "Collecte":"4"
-        },
-        "vitesse":"1200",
-        "vitesse_transport":"-1",
-        "quantite_nourriture":"475",
-        "perte_nourriture":"1",
-        "nocturne":"Oui"
-    }
+  {
+    "nom": "Braloha",
+    "classement": 1,
+    "vitesse": 600,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 460,
+    "nocturne": "non",
+    "competences": {"Collecte": "4" },
+    "autre_competences": { "Semence" : "4", "Extraction" : "2"},
+    "description":"Braloha fait partie des 2 seuls pals du jeu à avoir 4 en collecte. Il possède également 4 en semence ce qui en fait un allié parfait pour le camp."
+  },
+  {
+    "nom": "Frostalion Noct",
+    "classement": 1,
+    "vitesse": 1200,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 475,
+    "nocturne": "oui",
+    "competences": {"Collecte": "4" },
+    "autre_competences": { },
+    "description":"Frostalion Noct est le deuxième pal du jeu avec un niveau 4 en collecte. Il peut également travailler de nuit comme de jour ce qui peut en faire un avantage par rapport à Braloha dans la collecte."
+  },
+  {
+    "nom": "Knocklem",
+    "classement": 2,
+    "vitesse": 550,
+    "vitesse_transport": 400,
+    "quantite_nourriture": 600,
+    "nocturne": "non",
+    "competences": {"Collecte": "3" },
+    "autre_competences": {"Transport": "Niveau 4", "Extraction": "Niveau 4"},
+    "description":"Knocklem peut également transporter en plus de collecter. Avec un livre de compétence, il peut atteindre le même niveau de collecte que Frostalion Noct"
+  },
+  {
+    "nom": "Verdash",
+    "classement": 3,
+    "vitesse": 500,
+    "vitesse_transport": 275,
+    "quantite_nourriture": 225,
+    "nocturne": "non",
+    "competences": {"Collecte": "3" },
+    "autre_competences": {"Transport": "Niveau 2", "Abattage": "Niveau 4", "Semence":"Niveau 2", "Travaux Manuels":"Niveau 3"},
+    "description":"Verdash est le seul pal du jeu à pouvoir facilement atteindre le niveau max dans la collecte, la semence et le transport grâce aux livres de compétences"
+  }
+  ,
+  {
+    "nom": "Mimog",
+    "classement": 1,
+    "vitesse": 2000,
+    "vitesse_transport": 450,
+    "quantite_nourriture": 150,
+    "nocturne": "non",
+    "competences": {"Transport": "1" },
+    "autre_competences": {"Collecte": "Niveau 1"},
+    "description":"Mimog à seulement un niveau de compétence de 1, en revanche avec des livres de compétences, il devient le pal le plus rapide pour transporter des objets."
+  }
+  ,
+  {
+    "nom": "Faleris",
+    "classement": 2,
+    "vitesse": 1000,
+    "vitesse_transport": 500,
+    "quantite_nourriture": 525,
+    "nocturne": "non",
+    "competences": {"Transport": "3" },
+    "autre_competences": {"Allumage": "Niveau 3"},
+    "description":"Faleris est le deuxième meilleur pal pour transporter des objets à condition de lui ajouter un livre de compétence en transport."
+  },
+  {
+    "nom": "Vanwyrm",
+    "classement": 2,
+    "vitesse": 700,
+    "vitesse_transport": 475,
+    "quantite_nourriture": 400,
+    "nocturne": "oui",
+    "competences": {"Transport": "3" },
+    "autre_competences": {"Allumage": "Niveau 1"},
+    "description":"Je mets Vanwyrm à égalité avec Faleris car malgré des statistiques moins élevées il peut travailler la nuit ce qui lui offre en finalité un meilleur rendement."
+  }
+  ,
+  {
+    "nom": "Knocklem",
+    "classement": 3,
+    "vitesse": 550,
+    "vitesse_transport": 400,
+    "quantite_nourriture": 600,
+    "nocturne": "non",
+    "competences": {"Transport": "4" },
+    "autre_competences": {"Collecte": "Niveau 3", "Extraction": "Niveau 4"},
+    "description":"Knocklem est le pal possédant la meilleure capacité de transport mais il est plus lent que Faleris ou Mimog. En revanche il peut également collecter ce qui en fait un atout idéal."
+  },
+  {
+    "nom": "Faleris Aqua",
+    "classement": 1,
+    "vitesse": 1000,
+    "vitesse_transport": 500,
+    "quantite_nourriture": 525,
+    "nocturne": "non",
+    "competences": {"Arrosage": "4" },
+    "autre_competences": {"Transport": "Niveau 3"},
+    "description":"Faleris Aqua possède la meilleure stats pour arroser les plantations. Il se déplace en volant et rapidement en plus de pouvoir transporter."
+  },
+  {
+    "nom": "Ghangler",
+    "classement": 2,
+    "vitesse": 400,
+    "vitesse_transport": 300,
+    "quantite_nourriture": 270,
+    "nocturne": "oui",
+    "competences": {"Arrosage": "4" },
+    "autre_competences": {"Transport": "Niveau 2"},
+    "description":"Bien que possédant le même arrosage que Faleris et 1 niveau de moins en transport, il a des statistiques moins intéressantes. En revanche il est capable de travailler de jour comme de nuit."
+  },
+  {
+    "nom": "Jormuntide",
+    "classement": 3,
+    "vitesse": 600,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 475,
+    "nocturne": "non",
+    "competences": {"Arrosage": "4" },
+    "autre_competences": {},
+    "description":"Possède la meilleure statistique en arrosage mais sans les autres bénéfices des deux pals plus haut dans le classement."
+  },
+  {
+    "nom": "Ghangler Ignis",
+    "classement": 1,
+    "vitesse": 400,
+    "vitesse_transport": 300,
+    "quantite_nourriture": 270,
+    "nocturne": "oui",
+    "competences": {"Allumage": "3" },
+    "autre_competences": {"Arrosage": "Niveau 4", "Transport": "Niveau 2"},
+    "description":"Avec un livre de compétence Ghangler Ignis devient le meilleur pal en alumage et en arrosage en plus de pouvoir transporter. Il peut également travailler de nuit"
+  },
+  {
+    "nom": "Blazehowl Noct",
+    "classement": 2,
+    "vitesse": 800,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 475,
+    "nocturne": "oui",
+    "competences": {"Allumage": "3" },
+    "autre_competences": {"Abattage":"2"},
+    "description":"Avec un livre de compétence Blazehowl Noct devient le meilleur pal en alumage. Il peut également travailler de nuit"
+  },
+  {
+    "nom": "Blazamut Ryu",
+    "classement": 3,
+    "vitesse": 800,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 600,
+    "nocturne": "non",
+    "competences": {"Allumage": "4" },
+    "autre_competences": {"Extraction":"4"},
+    "description":"Possède les meilleurs statistiques pour un pal avec allumage. Comparé aux deux autres du classement, il est déjà au niveau 4 mais ne peut pas travailler de nuit."
+  },
+  {
+    "nom": "Faleris",
+    "classement": 3,
+    "vitesse": 1000,
+    "vitesse_transport": 500,
+    "quantite_nourriture": 525,
+    "nocturne": "non",
+    "competences": {"Allumage": "3" },
+    "autre_competences": {"Transport": "Niveau 3"},
+    "description":"Je met Faleris au même niveau que Blazamut Ryu car il peut également transporter ce qui est plus utile que extraction."
+  },
+  {
+    "nom": "Selyne",
+    "classement": 1,
+    "vitesse": 1000,
+    "vitesse_transport": 275,
+    "quantite_nourriture": 150,
+    "nocturne": "oui",
+    "competences": {"Travaux Manuels": "4" },
+    "autre_competences": {"Transport": "Niveau 3","Pharmacie": "Niveau 3"},
+    "description":"Selyne possède la meilleure statistique de travaux manuels. En plus de cela, elle se déplace très rapidement et peut également transporter et faire de la pharmacie. Elle travaille de jour comme de nuit."
+  },
+  {
+    "nom": "Splatterina",
+    "classement": 2,
+    "vitesse": 550,
+    "vitesse_transport": 180,
+    "quantite_nourriture": 150,
+    "nocturne": "oui",
+    "competences": {"Travaux Manuels": "4" },
+    "autre_competences": {"Transport": "Niveau 2","Pharmacie": "Niveau 3", "Abattage":"Niveau 1"},
+    "description":"Moins rapide que Selyne, transporte moins mais possède également la meilleure stat de travaux manuels en plus de pouvoir travailler de nuit."
+  },
+  {
+    "nom": "Anubis",
+    "classement": 3,
+    "vitesse": 800,
+    "vitesse_transport": 480,
+    "quantite_nourriture": 400,
+    "nocturne": "non",
+    "competences": {"Travaux Manuels": "4" },
+    "autre_competences": {"Transport": "Niveau 2","Extraction": "Niveau 2"},
+    "description":"Possède de meilleures statistiques de base, mais ne peut pas travailler de nuit et ne peut pas faire la pharmacie."
+  },
+  {
+    "nom": "Helzephyr Lux",
+    "classement": 1,
+    "vitesse": 700,
+    "vitesse_transport": 450,
+    "quantite_nourriture": 525,
+    "nocturne": "oui",
+    "competences": {"Génération énergie": "3" },
+    "autre_competences": {"Transport": "Niveau 3"},
+    "description":"De très bonnes statistiques, peut travailler la nuit et peut transporter quand il ne génère pas. Avec un livre de compétence il devient alors le meilleur pal possible."
+  },
+  {
+    "nom": "Orserk",
+    "classement": 2,
+    "vitesse": 900,
+    "vitesse_transport": 250,
+    "quantite_nourriture": 475,
+    "nocturne": "non",
+    "competences": {"Génération énergie": "4" },
+    "autre_competences": {"Transport": "Niveau 2", "Travaux Manuels":"Niveau 2"},
+    "description":"La meilleure génération du jeu et peu également aider en transport et travaux manuels. Ne peut pas travailler la nuit sans passif spécifique."
+  },
+  {
+    "nom": "Azurmane",
+    "classement": 3,
+    "vitesse": 900,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 410,
+    "nocturne": "non",
+    "competences": {"Génération énergie": "4" },
+    "autre_competences": {"Collecte": "Niveau 1"},
+    "description":"La meilleure génération du jeu mais ne peut rien faire de plus."
+  }
+  ,
+  {
+    "nom": "Astegon",
+    "classement": 1,
+    "vitesse": 700,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 600,
+    "nocturne": "oui",
+    "competences": {"Extraction": "4" },
+    "autre_competences": {"Travaux Manuels": "Niveau 1"},
+    "description":"Le meilleur pal pour extraire des minerais, il possède la meilleur stat du jeu et peut travailler la nuit."
+  },
+  {
+    "nom": "Knocklem",
+    "classement": 2,
+    "vitesse": 550,
+    "vitesse_transport": 400,
+    "quantite_nourriture": 600,
+    "nocturne": "non",
+    "competences": {"Extraction": "3" },
+    "autre_competences": {"Transport": "Niveau 4", "Collecte": "Niveau 3"},
+    "description":"Knocklem peut extraire mais également transporter. Il possède ces deux statistiques au niveau max ce qui en fait un excellent choix. En revanche il ne peut travailler la nuit sans passif."
+  },
+  {
+    "nom": "Blazamut Ryu",
+    "classement": 3,
+    "vitesse": 800,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 600,
+    "nocturne": "non",
+    "competences": {"Extraction": "4" },
+    "autre_competences": {"Allumage":"4"},
+    "description":"Possède la meilleure statistique du jeu. Il possède en plus 4 en allumage."
+  },
+  {
+    "nom": "Prunelia",
+    "classement": 1,
+    "vitesse": 550,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 225,
+    "nocturne": "oui",
+    "competences": {"Semence": "3" },
+    "autre_competences": {"Collecte":"Niveau 2", "Pharmacie":"Niveau 3", "Transport":"1", "Travaux Manuels":"1"},
+    "description":"Avec un livre de compétence, il possède la meilleure stat du jeu en plus de posséder une compétence passive augmentant les récoles. Il peut également collecter et travailler de nuit."
+  },
+  {
+    "nom": "Braloha",
+    "classement": 2,
+    "vitesse": 600,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 460,
+    "nocturne": "non",
+    "competences": {"Semence": "4" },
+    "autre_competences": { "Collecte" : "4", "Extraction" : "2"},
+    "description":"Braloha fait partie des 2 seuls pals du jeu à avoir 4 en semence. Il possède également 4 en collecte ce qui en fait un allié parfait pour le camp."
+  },
+  {
+    "nom": "Lullu",
+    "classement": 3,
+    "vitesse": 400,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 150,
+    "nocturne": "non",
+    "competences": {"Semence": "2" },
+    "autre_competences": {"Collecte":"Niveau 2", "Pharmacie":"Niveau 2", "Travaux Manuels":"1"},
+    "description":"Lullu est dans ce classement grâce à sa compétences passives permettant de réduire considérablement le temps de croissance des cultures. Combiné à Prunelia les récoltes sont abondantes."
+  },
+  {
+    "nom": "Bushi Noct",
+    "classement": 1,
+    "vitesse": 600,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 300,
+    "nocturne": "oui",
+    "competences": {"Abattage": "3" },
+    "autre_competences": {},
+    "description":"Avec un livre de compétence Bushi Noct devient alors le meilleur pal abattage du jeu car il peut aussi travailler de nuit."
+  },
+  {
+    "nom": "Celesdir",
+    "classement": 2,
+    "vitesse": 800,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 410,
+    "nocturne": "non",
+    "competences": {"Abattage": "4" },
+    "autre_competences": {"Collecte":"Niveau 1"},
+    "description":"Celesdir est tout simplement le seul pal du jeu à psséder 4 en abattage."
+  },
+  {
+    "nom": "Wumpo",
+    "classement": 3,
+    "vitesse": 600,
+    "vitesse_transport": 150,
+    "quantite_nourriture": 525,
+    "nocturne": "non",
+    "competences": {"Abattage": "3" },
+    "autre_competences": {"Transport":"4"},
+    "description":"Possède 3 en abttage mais possède également 4 en transport ce qui fait de lui le troisième meilleur pal loin derrière les deux premiers."
+  },
+  {
+    "nom": "Selyne",
+    "classement": 1,
+    "vitesse": 1000,
+    "vitesse_transport": 275,
+    "quantite_nourriture": 150,
+    "nocturne": "oui",
+    "competences": {"Pharmacie": "3" },
+    "autre_competences": {"Transport": "Niveau 3","Travaux Manuels": "Niveau 4"},
+    "description":"Avec un livre de compétence, Selyne possède la meilleure statistique de pharmie, en plus de posséder la meilleure stat en travaux manuels. Il peut transporter en se déplacement vite et travaille de nuit."
+  },
+  {
+    "nom": "Prunelia",
+    "classement": 2,
+    "vitesse": 550,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 225,
+    "nocturne": "oui",
+    "competences": {"Pharmacie": "3" },
+    "autre_competences": {"Collecte":"Niveau 2", "Semence":"Niveau 3", "Transport":"1", "Travaux Manuels":"1"},
+    "description":"Avec un livre de compétence, il possède la meilleure stat du jeu en plus de pouvoir semer et collecter. Il travail également la nuit."
+  },
+  {
+    "nom": "Bellanoir",
+    "classement": 3,
+    "vitesse": 600,
+    "vitesse_transport": 400,
+    "quantite_nourriture": 300,
+    "nocturne": "oui",
+    "competences": {"Pharmacie": "4" },
+    "autre_competences": {"Transport": "Niveau 4","Travaux Manuels": "Niveau 2"},
+    "description":"Possède la meilleure statistique de base pour la pharmacie mais est moins intéresssant dans les autres usages sans livres de compétences. En revanche avec 4 livres il aura alors de meilleures stats que les 2 au dessus de lui dans le classement."
+  },
+  {
+    "nom": "Vanwyrm Cryst",
+    "classement": 1,
+    "vitesse": 700,
+    "vitesse_transport": 475,
+    "quantite_nourriture": 400,
+    "nocturne": "oui",
+    "competences": {"Réfrigération": "2" },
+    "autre_competences": {"Transport": "Niveau 3"},
+    "description":"Avec 2 livres de compétences Vanwyrm Cryst est le meilleur pal de réfrigération car il peut travailler nuit naturellement"
+  },
+  {
+    "nom": "Bastigor",
+    "classement": 2,
+    "vitesse": 750,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 485,
+    "nocturne": "non",
+    "competences": {"Réfrigération": "4" },
+    "autre_competences": {},
+    "description":"Possède la meilleure statistique de base pour la réfrigération mais ne peut pas travailler de nuit naturellement"
+  },
+  {
+    "nom": "Whalaska",
+    "classement": 3,
+    "vitesse": 550,
+    "vitesse_transport": -1,
+    "quantite_nourriture": 420,
+    "nocturne": "non",
+    "competences": {"Réfrigération": "4" },
+    "autre_competences": {},
+    "description":"Possède la meilleure statistique de base pour la réfrigération mais ne peut pas travailler de nuit naturellement"
+  }
 ]

@@ -1,181 +1,173 @@
 @import url(https://fr.getfonts.net/allfont.css?fonts=courier-new);
 
 @font-face {
-  font-family: 'Brigsa';
-  src: url('../fonts/Brigsa-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+font-family: 'Brigsa';
+src: url('../fonts/Brigsa-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-image: url("../img/fond3.PNG");
-    background-repeat: no-repeat;
-    background-position: center center; /* centre l'image */
-    background-size: cover; /* adapte la taille pour couvrir tout le div */
-    margin: 0;
-    padding: 30px;
-    color: #2c3e50;
-    text-align: center;
-  }
-  
-  h1 {
-    margin-bottom: 30px;
-    font-family: 'Brigsa', sans-serif;
-  }
+  font-family: Arial, sans-serif;
+  background-image: url("../img/fond3.PNG");
+  background-repeat: no-repeat;
+  background-position: center center; /* centre l'image */
+  background-size: cover; /* adapte la taille pour couvrir tout le div */
+  margin: 0;
+  padding: 30px;
+  color: #2c3e50;
+  text-align: center;
+}
 
-  h2{
-    font-family: 'Brigsa', sans-serif;
-  }
+h1 {
+  margin-bottom: 30px;
+  font-family: 'Brigsa', sans-serif;
+}
 
-  p, option, select, label{
-    font-family: 'Courier New', arial;
-  }
-  
-  .ranking-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .ranking-column {
-    flex: 1;
-    min-width: 250px;
-    background: rgba(255, 255, 255, 0.7);
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .ranking-column h2 {
-    color: #000000;
-    margin-bottom: 15px;
-  }
-  
-  .ranking-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .ranking-card {
-    background-color: #1F2937;
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    text-align: left;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-  }
-  
-  .ranking-card img {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    object-fit: cover;
-  }
-  
-  .ranking-card .rank {
-    font-weight: bold;
-    font-size: 1.2em;
-    width: 40px;
-  }
-  
-  .ranking-card .name {
-    flex: 1;
-  }
-  
+h2{
+  font-family: 'Brigsa', sans-serif;
+}
+
+p, option, select{
+  font-family: 'Courier New', arial;
+}
+
+label{
+  color: white;
+  font-family: 'Courier New', arial;
+}
+
+.ranking-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ranking-column {
+flex: 0 0 500px; /* largeur fixe de 200px */
+background: rgba(255, 255, 255, 0.7);
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.ranking-column h2 {
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.ranking-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ranking-card {
+  background-color: #1F2937;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.ranking-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.ranking-card .rank {
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 40px;
+}
+
+.ranking-card .name {
+  flex: 1;
+}
+
 .btn-home {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-    transition: background-color 0.3s ease;
-    z-index: 1000;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+  z-index: 1000;
 }
 
 .btn-home:hover {
-    background-color: #dadddf;
+  background-color: #dadddf;
 }
 
 .name{
-  font-family: 'Courier New', arial;
+font-family: 'Courier New', arial;
 }
 
 .rank{
-  font-family: 'Courier New', arial;
+font-family: 'Courier New', arial;
 }
-
-.btn-podium {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-    transition: background-color 0.3s ease;
-    z-index: 1000;
-}
-
-.btn-podium:hover {
-    background-color: #dadddf;
-}
-
-/* Modal backdrop */
-.modal {
-    display: none; 
-    position: fixed;
-    z-index: 1100;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.5);
-}
-
-/* Close button */
-.modal .close {
-    color: #aaa;
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.modal .close:hover {
-    color: black;
-}
-
-#podium-list {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-#podium-list .ranking-card {
-    width: 30%;
-    text-align: center;
-}
-
 .checkbox-wrapper {
-    display: inline-block;
-    margin-bottom: 20px;
-    font-size: 14px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+.hidden { display: none; }
+.modal-content {
+  background: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  max-width: 400px;
+}
+.close {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.detail-button {
+background-color: #2563EB; /* bleu vif */
+color: white;
+border: none;
+padding: 6px 12px;
+border-radius: 6px;
+font-size: 0.9em;
+cursor: pointer;
+transition: background-color 0.2s ease;
+}
+
+.detail-button:hover {
+background-color: #1D4ED8; /* bleu légèrement plus foncé au survol */
+}
+
+.detail-button:active {
+background-color: #1E40AF; /* clic */
+}
+
+.detail-button:focus {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.4);
 }

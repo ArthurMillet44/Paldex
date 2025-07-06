@@ -6,32 +6,27 @@
   <link rel="stylesheet" href="classement_camp.css" />
 </head>
 <body>
-  <h1>Top des meilleurs pals pour le camp</h1>
-  <label for="type-select">Filtrer par compétence :</label>
+  <h1>Top des meilleurs Pals pour le camp</h1>
+
+  <label for="competence-filter">Filtrer par compétence :</label>
   <select id="competence-filter">
-    <option value="all">Toutes</option>
   </select>
 
   <label class="checkbox-wrapper">
-        Nocturne
-        <input type="checkbox" id="exclusive-toggle">
-        
+    Nocturne
+    <input type="checkbox" id="exclusive-toggle" />
   </label>
 
   <div class="ranking-container">
-    <div class="ranking-column" id="hp-ranking">
-      <h2>Vitesse</h2>
-      <div class="ranking-list" id="hp-list"></div>
+    <div class="ranking-column" id="main-ranking">
+      <h2 id="ranking-title">Top 3</h2>
+      <div class="ranking-list" id="main-list"></div>
     </div>
-
-    <div class="ranking-column" id="defense-ranking">
-      <h2>Vitesse de transport</h2>
-      <div class="ranking-list" id="defense-list"></div>
-    </div>
-
-    <div class="ranking-column" id="damage-ranking">
-      <h2>Quantité de nourriture</h2>
-      <div class="ranking-list" id="damage-list"></div>
+  </div>
+  <div id="details-modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close-modal" class="close">&times;</span>
+      <div id="modal-body"></div>
     </div>
   </div>
 
