@@ -80,7 +80,7 @@ function renderPalsByClassement(filteredPals) {
 
     card.innerHTML = `
       <div class="rank">#${pal.classement}</div>
-      <img src="Paldex/img/${imageName}" alt="${pal.nom}" />
+      <img src="../img/${imageName}" alt="${pal.nom}" />
       <div class="name">${pal.nom}</div>
       <button class="detail-button" data-pal='${JSON.stringify(pal)}'>Détail</button>
     `;
@@ -112,7 +112,7 @@ function showDetailModal(pal) {
 
   const reasons = `
     <h3>${pal.nom}</h3>
-    <img src="Paldex/img/${imageName}" alt="${pal.nom}" style="
+    <img src="../img/${imageName}" alt="${pal.nom}" style="
       max-width: 150px;
       width: 100%;
       height: auto;
