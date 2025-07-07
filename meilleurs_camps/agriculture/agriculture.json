@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Verdalyn",
+    "quantity": 3,
+    "image": "https://via.placeholder.com/150x150?text=Verdalyn",
+    "passives": ["Productif", "Résistant", "Rapide", "Amical"]
+  },
+  {
+    "name": "Florabull",
+    "quantity": 2,
+    "image": "https://via.placeholder.com/150x150?text=Florabull",
+    "passives": ["Fertil", "Obéissant", "Loyal", "Stable"]
+  },
+  {
+    "name": "Aquanox",
+    "quantity": 4,
+    "image": "https://via.placeholder.com/150x150?text=Aquanox",
+    "passives": ["Hydrophile", "Travailleur", "Résilient", "Endurant"]
+  },
+  {
+    "name": "Aquanox",
+    "quantity": 4,
+    "image": "https://via.placeholder.com/150x150?text=Aquanox",
+    "passives": ["Hydrophile", "Travailleur", "Résilient", "Endurant"]
+  }
+]
