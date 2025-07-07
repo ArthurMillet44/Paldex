@@ -122,7 +122,7 @@ function showTop5Modal(pals) {
       ${top5.map((pal, index) => `
         <div class="ranking-card">
           <div class="rank">#${index + 1}</div>
-          <img src="../img/${pal.nom.toLowerCase().replaceAll('_', '')}.png" alt="${pal.nom}" />
+          <img src="../img/${pal.nom}.png" alt="${pal.nom}" />
           <div class="name">${pal.nom}</div>
           <div class="name">Score : ${pal.score.toFixed(1)}</div>
         </div>

@@ -24,7 +24,7 @@
 @import url(https://fr.getfonts.net/allfont.css?fonts=courier-new);
 
 html {
-    background-image: url("../img/fond3.png");
+    background-image: url("img/fond3.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

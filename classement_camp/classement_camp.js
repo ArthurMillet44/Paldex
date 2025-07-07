@@ -76,7 +76,7 @@ function renderPalsByClassement(filteredPals) {
     const card = document.createElement("div");
     card.className = "ranking-card";
 
-    const imageName = pal.nom.toLowerCase().replaceAll('_', '') + ".png";
+    const imageName = pal.nom + ".png";
 
     card.innerHTML = `
       <div class="rank">#${pal.classement}</div>
@@ -108,7 +108,7 @@ function showDetailModal(pal) {
     .map(([key, value]) => `${key} : ${value === true ? "Oui" : value}`)
     .join(", ");
 
-  const imageName = pal.nom.toLowerCase().replaceAll('_', '') + ".png";
+  const imageName = pal.nom + ".png";
 
   const reasons = `
     <h3>${pal.nom}</h3>
