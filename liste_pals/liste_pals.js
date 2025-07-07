@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
             function openModalForPal(pal) {
                 modalDetails.innerHTML = `
                     <h1>${pal.nom}</h1>
-                    <img src="../img/${pal.nom}.png" alt="${pal.nom}" style="
+                    <img src="Paldex/img/${pal.nom}.png" alt="${pal.nom}" style="
                         max-width: 300px;
                         width: 100%;
                         height: auto;
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const palCard = document.createElement('div');
                 palCard.className = 'pal-card';
                 palCard.innerHTML = `
-                    <img src="../img/${pal.nom}.png" alt="${pal.nom}">
+                    <img src="Paldex/img/${pal.nom}.png" alt="${pal.nom}">
                     <div class="info">
                         <h2>${pal.nom}</h2>
                         <p>${pal.attribut}</p>

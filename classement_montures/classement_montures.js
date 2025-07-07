@@ -80,14 +80,14 @@ function generateTop5(pals, statKey, containerId) {
 
     card.innerHTML = `
       <div class="rank">#${currentRank}</div>
-      <img src="../img/${imageName}" alt="${pal.nom}" />
+      <img src="Paldex/img/${imageName}" alt="${pal.nom}" />
       <div class="name">${pal.nom}</div>
       <div class="name">${value}</div>
     `;
 
     card.addEventListener('click', () => {
       sessionStorage.setItem('openPalModal', pal.nom);
-      window.location.href = `../liste_pals/liste_pals.html#${encodeURIComponent(pal.nom)}`;
+      window.location.href = `Paldex/liste_pals/liste_pals.html#${encodeURIComponent(pal.nom)}`;
     });
 
     container.appendChild(card);
@@ -122,7 +122,7 @@ function showTop5Modal(pals) {
       ${top5.map((pal, index) => `
         <div class="ranking-card">
           <div class="rank">#${index + 1}</div>
-          <img src="../img/${pal.nom.toLowerCase().replaceAll('_', '')}.png" alt="${pal.nom}" />
+          <img src="Paldex/img/${pal.nom.toLowerCase().replaceAll('_', '')}.png" alt="${pal.nom}" />
           <div class="name">${pal.nom}</div>
           <div class="name">Score : ${pal.score.toFixed(1)}</div>
         </div>
@@ -150,7 +150,7 @@ function refreshDisplay() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("../liste_pals/pals.json")
+  fetch("Paldex/liste_pals/pals.json")
     .then(response => {
       if (!response.ok) throw new Error("Erreur lors du chargement du fichier JSON");
       return response.json();

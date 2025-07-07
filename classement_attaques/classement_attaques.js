@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.className = 'attack-card ' + normalizeTypeForClass(atk.type);
             card.innerHTML = `
                 <div class="img-wrapper">
-                    <img class="atk-icon" src="../img/${atk.type}.PNG" alt="${atk.type}">
+                    <img class="atk-icon" src="Paldex/img/${atk.type}.png" alt="${atk.type}">
                 </div>
                 <h2>#${index + 1} - ${atk.nom}</h2>
                 <p><strong>Type :</strong> ${atk.type}</p>
