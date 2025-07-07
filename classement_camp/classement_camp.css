@@ -7,18 +7,23 @@ font-weight: normal;
 font-style: normal;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-image: url("../img/fond3.PNG");
-  background-repeat: no-repeat;
-  background-position: center center; /* centre l'image */
-  background-size: cover; /* adapte la taille pour couvrir tout le div */
-  margin: 0;
-  padding: 30px;
-  color: #2c3e50;
-  text-align: center;
+html {
+    background-image: url("../img/fond3.PNG");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; /* fait que l’image reste en place même si on scrolle */
 }
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh; /* garantit au moins la hauteur de la fenêtre */
+    background-color: transparent; /* s'assurer que le fond du body ne masque pas le html */
+}
 h1 {
   margin-bottom: 30px;
   font-family: 'Brigsa', sans-serif;
@@ -33,9 +38,18 @@ p, option, select{
 }
 
 label{
-  color: white;
-  font-family: 'Courier New', arial;
+  color: black;
+  font-family: 'Brigsa', sans-serif;
+  font-size: 16px;
 }
+
+#competence-filter{
+  font-family: 'Brigsa', sans-serif;
+  display: block;  
+  width: 25%;
+  font-size: 16px;
+}
+
 
 .ranking-container {
   display: flex;
@@ -45,12 +59,15 @@ label{
 }
 
 .ranking-column {
-flex: 0 0 500px; /* largeur fixe de 200px */
-background: rgba(255, 255, 255, 0.7);
-padding: 15px;
-border-radius: 10px;
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;          /* largeur maximale, ajuste si besoin */
+  margin: 0 auto;            /* centre horizontalement */
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 
 
 .ranking-column h2 {
@@ -121,9 +138,10 @@ font-family: 'Courier New', arial;
 font-family: 'Courier New', arial;
 }
 .checkbox-wrapper {
-  display: inline-block;
   margin-bottom: 20px;
   font-size: 14px;
+  font-family: 'Brigsa', sans-serif;
+  font-size: 16px;
 }
 
 .modal {
@@ -170,4 +188,11 @@ background-color: #1E40AF; /* clic */
 .detail-button:focus {
 outline: none;
 box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.4);
+}
+
+.filters-column {
+  display: flex;
+  flex-direction: column; /* 🠗 les éléments s'empilent */
+  align-items: center;
+  gap: 10px;               /* espace entre les éléments */
 }

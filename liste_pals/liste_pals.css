@@ -13,15 +13,22 @@
 }
 @import url(https://fr.getfonts.net/allfont.css?fonts=courier-new);
 
-body {
-    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    padding: 70px;
+html {
     background-image: url("../img/fond3.PNG");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    color: #2c3e50;
+    background-attachment: fixed; /* fait que l’image reste en place même si on scrolle */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh; /* garantit au moins la hauteur de la fenêtre */
+    background-color: transparent; /* s'assurer que le fond du body ne masque pas le html */
 }
 
 h1 {

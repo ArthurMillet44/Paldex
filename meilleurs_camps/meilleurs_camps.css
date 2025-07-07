@@ -36,10 +36,9 @@ body {
     font-family: Arial, sans-serif;
     color: #333;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     min-height: 100vh; /* garantit au moins la hauteur de la fenêtre */
-    background-color: transparent; /* s'assurer que le fond du body ne masque pas le html */
-}
+    background-color: transparent; /* s'assurer que le fond du body ne masque pas le html */}
 
 
 h1 {
@@ -48,11 +47,11 @@ h1 {
     color: #2c3e50;
     font-family: 'Brigsa', sans-serif;
     font-size: 60px;
+    margin-bottom: 60px;
 }
 
 h2{
     font-family: 'Animals', sans-serif;
-    color: white;
 }
 
 p {
@@ -65,14 +64,14 @@ p {
 .pals-container {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 50px;
     margin-top: 30px;
     flex-wrap: wrap;
 }
 
 /* Carte cliquable */
 .pal-card {
-    background-color: #2e2c53;
+    background-color: #ffffff;
     border-radius: 12px;
     width: 300px;
     height: 150px;
@@ -80,9 +79,32 @@ p {
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.agri-card{
+    background-image: url("../img/agriculture.png");
+}
+
+.mineur-card{
+    background-image: url("../img/minage.png");
+}
+
+.craft-card{
+   background-image: url("../img/crafting.png");
+}
+
+.petrole-card{
+   background-image: url("../img/petrole.png");
+}
+
+.reproduction-card{
+   background-image: url("../img/reproduction.png");
+}
+
+div.pal-card.white-card > div.info > h2 {
+    color: white;
 }
 
 .pal-card:hover {
@@ -93,20 +115,19 @@ p {
 .pal-card .info h2 {
     margin: 0 0 10px 0;
     font-size: 1.6em;
-    color: white;
+    color: #34495e;
 }
 
 .pal-card .info p {
     margin: 0;
     font-size: 1em;
-    color: white;
+    color: #7f8c8d;
 }
 
 /* Responsive : sur petits écrans, les cartes prennent toute la largeur */
 @media (max-width: 600px) {
     .pals-container {
         flex-direction: column;
-        align-items: center;
         gap: 20px;
     }
 
@@ -115,3 +136,50 @@ p {
         height: auto;
     }
 }
+
+.btn-home {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.btn-home:hover {
+    background-color: #dadddf;
+}
+
+.pal-card {
+    position: relative; /* nécessaire pour positionner .info dedans */
+    width: 300px;
+    height: 200px;
+    background-color: #eee;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pal-card .info {
+    display: flex;
+    justify-content: center; /* centre horizontalement */
+    align-items: center;     /* centre verticalement */
+    height: 50px;            /* fixe une hauteur à ton bandeau */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    z-index: 1;
+}
+
+
+
