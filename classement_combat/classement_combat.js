@@ -30,11 +30,9 @@ function generateTop5(pals, statKey, containerId) {
     const card = document.createElement("div");
     card.className = "ranking-card";
 
-    const imageName = pal.nom.toLowerCase().replaceAll('_', '') + ".png";
-
     card.innerHTML = `
       <div class="rank">#${currentRank}</div>
-      <img src="../img/${imageName}" alt="${pal.nom}" />
+      <img src="../img/${pal.nom}.png" alt="${pal.nom}" />
       <div class="name">${pal.nom}</div>
       <div class="name">${pal.max_stats[statKey]}</div>
     `;
@@ -73,7 +71,7 @@ function showTop3Modal(pals) {
       ${top3.map((pal, index) => `
         <div class="ranking-card">
           <div class="rank">#${index + 1}</div>
-          <img src="../img/${pal.nom.toLowerCase().replaceAll('_', '')}.png" alt="${pal.nom}" />
+          <img src="../img/${pal.nom}.png" alt="${pal.nom}" />
           <div class="name">${pal.nom}</div>
           <div class="name">Score : ${pal.score.toFixed(1)}</div>
         </div>

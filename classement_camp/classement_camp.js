@@ -76,11 +76,9 @@ function renderPalsByClassement(filteredPals) {
     const card = document.createElement("div");
     card.className = "ranking-card";
 
-    const imageName = pal.nom + ".png";
-
     card.innerHTML = `
       <div class="rank">#${pal.classement}</div>
-      <img src="../img/${imageName}" alt="${pal.nom}" />
+      <img src="../img/${pal.nom}.png" alt="${pal.nom}" />
       <div class="name">${pal.nom}</div>
       <button class="detail-button" data-pal='${JSON.stringify(pal)}'>Détail</button>
     `;
@@ -108,11 +106,9 @@ function showDetailModal(pal) {
     .map(([key, value]) => `${key} : ${value === true ? "Oui" : value}`)
     .join(", ");
 
-  const imageName = pal.nom + ".png";
-
   const reasons = `
     <h3>${pal.nom}</h3>
-    <img src="../img/${imageName}" alt="${pal.nom}" style="
+    <img src="../img/${pal.nom}.png" alt="${pal.nom}" style="
       max-width: 150px;
       width: 100%;
       height: auto;
