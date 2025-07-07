@@ -76,11 +76,9 @@ function generateTop5(pals, statKey, containerId) {
     const card = document.createElement("div");
     card.className = "ranking-card";
 
-    const imageName = pal.nom.toLowerCase().replaceAll('_', '') + ".png";
-
     card.innerHTML = `
       <div class="rank">#${currentRank}</div>
-      <img src="../img/${imageName}" alt="${pal.nom}" />
+      <img src="../img/${pal.nom}.png" alt="${pal.nom}" />
       <div class="name">${pal.nom}</div>
       <div class="name">${value}</div>
     `;
