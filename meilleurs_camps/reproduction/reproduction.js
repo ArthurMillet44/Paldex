@@ -3,7 +3,7 @@ fetch("reproduction.json")
   .then((data) => {
     const agri_container = document.getElementById("pal-agri-container");
     const ranch_container = document.getElementById("pal-ranch-container");
-    const transport_container = document.getElementById("pal-transport-container");
+    const pal_inte_container = document.getElementById("pal-inte-container");
     const autre_container = document.getElementById("pal-autre-container");
     const structures_container = document.getElementById("structures-container");
     const storage_container = document.getElementById("storage-container");
@@ -58,8 +58,8 @@ fetch("reproduction.json")
     agri_container.appendChild(card);
   } else if (pal.type === "ranch") {
     ranch_container.appendChild(card);
-  } else if (pal.type === "transport") {
-    transport_container.appendChild(card);
+  } else if (pal.type === "inte") {
+    pal_inte_container.appendChild(card);
   } else if (pal.type === "structure") {
     structures_container.appendChild(card);
   } else if(pal.type === "storage"){

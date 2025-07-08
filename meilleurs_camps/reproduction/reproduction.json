@@ -124,5 +124,35 @@
     "type":"structure",
     "quantity": "1",
     "passives": []
+  },
+  {
+    "name": "Anubis",
+    "type":"inte",
+    "quantity": 2,
+    "passives": ["Philantrope", "Nocturne/Vampire"]
+  },
+  {
+    "name": "Jetragon",
+    "type":"inte",
+    "quantity": 2,
+    "passives": ["Philantrope", "Nocturne/Vampire"]
+  },
+  {
+    "name": "Blazamut",
+    "type":"inte",
+    "quantity": 2,
+    "passives": ["Philantrope", "Nocturne/Vampire"]
+  },
+  {
+    "name": "Whalaska",
+    "type":"inte",
+    "quantity": 2,
+    "passives": ["Philantrope", "Nocturne/Vampire"]
+  },
+  {
+    "name": "Dumud",
+    "type":"inte",
+    "quantity": 2,
+    "passives": ["Philantrope", "Nocturne/Vampire"]
   }
 ]
