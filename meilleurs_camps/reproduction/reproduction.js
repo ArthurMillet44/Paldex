@@ -1,4 +1,4 @@
-fetch("agriculture.json")
+fetch("reproduction.json")
   .then((res) => res.json())
   .then((data) => {
     const agri_container = document.getElementById("pal-agri-container");

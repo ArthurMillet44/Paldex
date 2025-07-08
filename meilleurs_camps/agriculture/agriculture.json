@@ -1,26 +1,177 @@
 [
   {
-    "name": "Verdalyn",
+    "name": "Prunelia",
+    "type":"agri",
+    "quantity": "1",
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
+  },
+  {
+    "name": "Lullu",
+    "type":"agri",
+    "quantity": 1,
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Nocturne/Vampire"]
+  },
+  {
+    "name": "Shroomer Noct",
+    "type":"agri",
+    "quantity": 6,
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
+  },
+  {
+    "name": "Faleris Aqua",
+    "type":"agri",
+    "quantity": 1,
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Nocturne/Vampire"]
+  },
+  {
+    "name": "Ghangler",
+    "type":"agri",
+    "quantity": 1,
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
+  },
+  {
+    "name": "Beegarde",
+    "type":"ranch",
+    "quantity": 8,
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Nocturne/Vampire"]
+  },
+  {
+    "name": "Faleris",
+    "type":"transport",
     "quantity": 3,
-    "image": "https://via.placeholder.com/150x150?text=Verdalyn",
-    "passives": ["Productif", "Résistant", "Rapide", "Amical"]
-  },
+    "passives": ["Sprinter", "Coursier", "Légende", "Nocturne/Vampire"]
+  }
+  ,
   {
-    "name": "Florabull",
+    "name": "Vanwyrm",
+    "type":"transport",
     "quantity": 2,
-    "image": "https://via.placeholder.com/150x150?text=Florabull",
-    "passives": ["Fertil", "Obéissant", "Loyal", "Stable"]
+    "passives": ["Sprinter", "Coursier", "Légende", "Vif"]
   },
   {
-    "name": "Aquanox",
-    "quantity": 4,
-    "image": "https://via.placeholder.com/150x150?text=Aquanox",
-    "passives": ["Hydrophile", "Travailleur", "Résilient", "Endurant"]
+    "name": "Vanwyrm Cryst",
+    "type":"autre",
+    "quantity": 2,
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
   },
   {
-    "name": "Aquanox",
+    "name": "Blé",
+    "type":"structure",
+    "quantity": 6,
+    "passives": []
+  },
+  {
+    "name": "Baies",
+    "type":"structure",
+    "quantity": 2,
+    "passives": []
+  },
+  {
+    "name": "Patates",
+    "type":"structure",
+    "quantity": 2,
+    "passives": []
+  },
+  {
+    "name": "Oignons",
+    "type":"structure",
     "quantity": 4,
-    "image": "https://via.placeholder.com/150x150?text=Aquanox",
-    "passives": ["Hydrophile", "Travailleur", "Résilient", "Endurant"]
+    "passives": []
+  },
+  {
+    "name": "Carottes",
+    "type":"structure",
+    "quantity": 4,
+    "passives": []
+  },
+  {
+    "name": "Tomates",
+    "type":"structure",
+    "quantity": 6,
+    "passives": []
+  },
+  {
+    "name": "Coffre",
+    "type":"storage",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Réfrigérateur",
+    "type":"storage",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Boîte à nourriture",
+    "type":"storage",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Pharmacie",
+    "type":"storage",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Ferme",
+    "type":"autre_struct",
+    "quantity": 3,
+    "passives": []
+  },
+  {
+    "name": "Plateforme de surveillance",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Parterre",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Fontaine",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Lit",
+    "type":"autre_struct",
+    "quantity": 25,
+    "passives": []
+  },
+  {
+    "name": "Dispositif de vague α",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Silo",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Bonhomme de neige",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Onsen",
+    "type":"autre_struct",
+    "quantity": 2,
+    "passives": []
+  },
+  {
+    "name": "Dispositif de vague ß",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
   }
 ]

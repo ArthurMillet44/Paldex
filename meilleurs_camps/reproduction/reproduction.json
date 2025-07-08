@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Helzephyr Lux",
+    "type":"agri",
+    "quantity": "1",
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
+  },
+  {
+    "name": "Braloha",
+    "type":"agri",
+    "quantity": 1,
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Nocturne/Vampire"]
+  },
+  {
+    "name": "Ranch",
+    "type":"structure",
+    "quantity": "4-5",
+    "passives": []
+  },
+  {
+    "name": "Grand incubateur électrique",
+    "type":"structure",
+    "quantity": "1 ou 2",
+    "passives": []
+  },
+  {
+    "name": "Grand générateur",
+    "type":"structure",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Boîte à nourriture",
+    "type":"storage",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Pharmacie",
+    "type":"storage",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Plateforme de surveillance",
+    "type":"structure",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Parterre",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Fontaine",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Lit",
+    "type":"autre_struct",
+    "quantity": 25,
+    "passives": []
+  },
+  {
+    "name": "Dispositif de vague α",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Silo",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Bonhomme de neige",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Onsen",
+    "type":"autre_struct",
+    "quantity": 2,
+    "passives": []
+  },
+  {
+    "name": "Dispositif de vague ß",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Faleris Aqua",
+    "type":"agri",
+    "quantity": 1,
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Nocturne/Vampire"]
+  },
+  {
+    "name": "Salade",
+    "type":"structure",
+    "quantity": "4",
+    "passives": []
+  },
+  {
+    "name": "Vanwyrm Cryst",
+    "type":"agri",
+    "quantity": 1,
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
+  },
+  {
+    "name": "Blé",
+    "type":"structure",
+    "quantity": "3",
+    "passives": []
+  },
+  {
+    "name": "Baies",
+    "type":"structure",
+    "quantity": "1",
+    "passives": []
+  }
+]

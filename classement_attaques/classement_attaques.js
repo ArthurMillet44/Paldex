@@ -22,11 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img class="atk-icon" src="../img/${atk.type}.png" alt="${atk.type}">
                 </div>
                 <h2>#${index + 1} - ${atk.nom}</h2>
-                <p><strong>Type :</strong> ${atk.type}</p>
                 <p><strong>Puissance :</strong> ${atk.puissance}</p>
                 <p><strong>Cooldown :</strong> ${atk.cooldown}</p>
                 <p><strong>DPS :</strong> ${atk.dps}</p>
-                <p><strong>Exclusive :</strong> ${atk.Exclusive}</p>
             `;
             container.appendChild(card);
         });

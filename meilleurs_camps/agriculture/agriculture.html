@@ -8,16 +8,80 @@
 </head>
 <body>
   <h1>Camp Agricole Ultime 🌾</h1>
+  <div class="toggle-buttons">
+    <button id="btn-pals">Pals</button>
+    <button id="btn-structures">Structures</button>
+  </div>
+  <div id="section-pals">
+    <section id="pals-section">
+      <h2 class="titre">Pals recommandés pour l'agriculture</h2>
+      <div id="pal-agri-container" class="grid-container">
+          <p class="block-description">
+            Tout d'abord, je vous conseille de changer le nombre de pals dans votre camp en le mettant à 25 pour que cela suive le niveau de la boîte à pal.
+            Prunelia et Lullu sont les meilleurs pals pour vos plantations avec leurs compétences partenaires. 
+          </p>
+          <p class="block-description">
+            Avec 6 Shroomer Noct vous pourrez assurer la collecte en plus de profiter d'un boost de 100% de perte de points men en moins. Vous pourrez donc passer au mode de travail le plus rapide de votre camp. 1 Faleris Aqua et 1 Ghangler pour l'arrosage.
+          </p>
+          <p>Pour Prunelia et Lullu, ne garder que semence d'activé, pour les Shroomer Noct, conservez uniquement collecte pour 4 d'entre eux et semence + collecte pour les deux autres. Pour Faleris Aqua et Ghangler ne conserver que Arrosage.</p>
 
-  <section id="pals-section">
-    <h2>Pals recommandés pour le camp</h2>
-    <div id="pal-container" class="grid-container">
-        <p class="block-description">
-            Ces pals ont été choisis pour leurs excellentes compétences en culture, transport et efficacité énergétique. Ils assurent un rendement optimal du camp.
+      </div>
+    </section>
+    <section id="pals-section">
+      <h2 class="titre">Pals recommandés pour la ferme</h2>
+      <div id="pal-ranch-container" class="grid-container">
+          <p>
+            Pour la ferme, libre à vous de choisir quoi mettre mais je vous conseille des Beegarde afin d'obtenir du miel qui n'est pas une ressource pouvant être achetée. Gardez uniquement le ranch et désactivez les autres capacités.
+          </p>
+      </div>
+    </section>
+    <section id="pals-section">
+      <h2 class="titre">Pals recommandés pour le transport</h2>
+      <div id="pal-transport-container" class="grid-container">
+        <p>
+          Cett section est faite pour les pals qui vont transporter les ressources depuis vos plantations et fermes vers vos coffres. Pour le transport je vous conseille 3 Faleris et 2 Vanwyrm. Au maximum, Faleris a de meilleures stats mais aura une moins bonne transport speed que Vanwyrm. En revanche il consomme de la nourriture moins fréquemment et va plus vite hors transport speed. 
         </p>
-    </div>
-  </section>
 
+      </div>
+    </section>
+    <section id="pals-section">
+      <h2 class="titre">Autres pals</h2>
+      <div id="pal-autre-container" class="grid-container">
+          <p>
+            Pour les autres pals nécessaires, il n'y en a qu'un seul et c'est Vanwyrm Cryst pour qui va assurer la réfrigération des structures (sujet abordé dans la section Structures). Ne conserver que la capacité de réfrigération sur ces pals.
+          </p>
+      </div>
+    </section>
+  </div>
+
+  <div id="section-structures" style="display: none;">
+    <section id="structures-section">
+      <h2 class="titre">Plantations</h2>
+      <div id="structures-container" class="grid-container">
+          <p>
+            Ces plantations vont vous permettre de faire deux recettes. Dans un premier temps, les Gâteaux (Blé + Baies), élément indispensable à votre survie. La deuxième recette c'est les Minestrone (Tomates + Oignons + Patates + Carottes), une recette extrêmement nutritive en plus de donner à vos pals une grosse augmentation de la vitesse de travail.
+      </div>
+    </section>
+    <section id="structures-section">
+      <h2 class="titre">Stockage</h2>
+      <div id="storage-container" class="grid-container">
+          <p>
+            Cette partie va concerner le stockage de vos récoltes. Pour les récoltes des fermes, placer un coffre à côté. Ce coffre n'est pas destiné aux légumes mais uniquement aux récoltes des fermes.
+            Pour les plantations placez un réfrigérateur à côté de vos plantations. Ce dernier sera alimenté par vos pals et gardera au frais vos légumes.
+            Enfin à mi-distance entre vos fermes et vos plantations placez une boîte à nourriture et une pharmacie. 
+      </div>
+    </section>
+    <section id="structures-section">
+      <h2 class="titre">Autres structures</h2>
+      <div id="autre_struct_container" class="grid-container">
+          <p>
+            Cette section concerne toutes les autres structures nécessaires au bon fonctionnement de votre camp. Notamment les fermes mais aussi les éléments permettant d'accélérer les vitesses de travail. Si vous avez de la place remplacez les lits confortables par des grands lits. 
+      </div>
+    </section>
+  </div>
+  
+  <a href="../meilleurs_camps.html" class="btn-podium">Camps</a>
+  <a href="../../index.html" class="btn-home">Accueil</a>
   <script src="agriculture.js"></script>
 </body>
 </html>

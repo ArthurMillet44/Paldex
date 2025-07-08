@@ -33,6 +33,7 @@ h1, h2 {
 
 p, option, select, label{
     font-family: 'Courier New', arial;
+    font-size: 16px;
 }
 
 select, label.checkbox-wrapper {
