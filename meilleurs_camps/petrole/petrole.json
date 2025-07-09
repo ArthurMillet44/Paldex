@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Helzephyr Lux",
+    "type":"agri",
+    "quantity": "2",
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
+  },
+  {
+    "name": "Vanwyrm Cryst",
+    "type":"agri",
+    "quantity": "1",
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
+  },
+  {
+    "name": "Grand générateur",
+    "type":"structure",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Extracteur de pétrole",
+    "type":"structure",
+    "quantity": 6,
+    "passives": []
+  },
+  {
+    "name": "Boîte à nourriture",
+    "type":"storage",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Pharmacie",
+    "type":"storage",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Plateforme de surveillance",
+    "type":"structure",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Poteau électrique",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Lit",
+    "type":"autre_struct",
+    "quantity": 25,
+    "passives": []
+  },
+  {
+    "name": "Dispositif de vague α",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Onsen",
+    "type":"autre_struct",
+    "quantity": 2,
+    "passives": []
+  },
+  {
+    "name": "Dispositif de vague ß",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  }
+]

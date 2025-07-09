@@ -1,4 +1,4 @@
-fetch("reproduction.json")
+fetch("petrole.json")
   .then((res) => res.json())
   .then((data) => {
     const agri_container = document.getElementById("pal-agri-container");
@@ -8,7 +8,6 @@ fetch("reproduction.json")
     const structures_container = document.getElementById("structures-container");
     const storage_container = document.getElementById("storage-container");
     const autre_struct_container = document.getElementById("autre_struct_container")
-    const pal_autre_container = document.getElementById("pal-autre-container")
 
     data.forEach((pal) => {
   const card = document.createElement("div");
@@ -67,8 +66,6 @@ fetch("reproduction.json")
     storage_container.appendChild(card)
   }else if(pal.type === "autre_struct"){
     autre_struct_container.appendChild(card)
-  }else if(pal.type === "autre_struct"){
-    pal_autre_container.appendChild(card)
   } else {
     autre_container.appendChild(card);
   }

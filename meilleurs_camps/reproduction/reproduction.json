@@ -96,6 +96,18 @@
     "passives": []
   },
   {
+    "name": "Souche et hâche",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Pioche et casque",
+    "type":"autre_struct",
+    "quantity": 1,
+    "passives": []
+  },
+  {
     "name": "Faleris Aqua",
     "type":"agri",
     "quantity": 1,
@@ -121,6 +133,24 @@
   },
   {
     "name": "Baies",
+    "type":"structure",
+    "quantity": "1",
+    "passives": []
+  },
+  {
+    "name": "Carrière de pierre",
+    "type":"structure",
+    "quantity": "1",
+    "passives": []
+  },
+  {
+    "name": "Scierie",
+    "type":"structure",
+    "quantity": "1",
+    "passives": []
+  },
+  {
+    "name": "Coffre d'une civilisation avancée",
     "type":"structure",
     "quantity": "1",
     "passives": []
@@ -154,5 +184,23 @@
     "type":"inte",
     "quantity": 2,
     "passives": ["Philantrope", "Nocturne/Vampire"]
+  },
+  {
+    "name": "Astegon",
+    "type":"autre",
+    "quantity": 3,
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
+  },
+  {
+    "name": "Bushi Noct",
+    "type":"autre",
+    "quantity": 3,
+    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
+  },
+  {
+    "name": "Vanwyrm",
+    "type":"autre",
+    "quantity": 3,
+    "passives": ["Sprinter", "Coursier", "Légende", "Vif"]
   }
 ]
