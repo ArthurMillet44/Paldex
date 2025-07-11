@@ -1,14 +1,11 @@
-// Données JSON
 let data = null;
 
-// Catégorie active pour chaque type de rareté
 let currentCategories = {
     commun: 'combat',
     rare: 'combat',
     legendaire: 'combat'
 };
 
-// Fonction d’affichage
 function afficherPassifs(type) {
     const category = currentCategories[type];
     if (!data) return;
@@ -75,18 +72,15 @@ function afficherPassifs(type) {
     }
 }
 
-// Initialisation
 function init() {
     ['legendaire', 'rare', 'commun'].forEach(type => {
         afficherPassifs(type);
 
-        // Ciblage des boutons dans la bonne colonne
         document.querySelectorAll(`#${type}-column .buttons button`).forEach(button => {
             button.addEventListener('click', () => {
                 const category = button.getAttribute('data-category');
                 currentCategories[type] = category;
 
-                // Met à jour les boutons actifs uniquement pour cette colonne
                 document.querySelectorAll(`#${type}-column .buttons button`).forEach(btn => {
                     btn.classList.remove('active');
                 });
@@ -98,7 +92,6 @@ function init() {
     });
 }
 
-// Chargement des données
 fetch('passifs.json')
     .then(response => {
         if (!response.ok) throw new Error("Erreur de chargement JSON");

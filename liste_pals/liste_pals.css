@@ -18,7 +18,7 @@ html {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed; /* fait que l’image reste en place même si on scrolle */
+    background-attachment: fixed;
 }
 
 body {
@@ -27,8 +27,8 @@ body {
     color: #333;
     text-align: center;
     padding: 20px;
-    min-height: 100vh; /* garantit au moins la hauteur de la fenêtre */
-    background-color: transparent; /* s'assurer que le fond du body ne masque pas le html */
+    min-height: 100vh;
+    background-color: transparent;
 }
 
 h1 {
@@ -148,7 +148,6 @@ p{
     color: #4B5563;
 }
 
-/* Modal styles */
 .modal.hidden {
     display: none;
 }

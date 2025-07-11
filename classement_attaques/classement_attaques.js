@@ -48,7 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
         renderAttacks(filtered);
     }
 
-    // Chargement initial
     fetch('best_atk.json')
         .then(res => res.json())
         .then(data => {
@@ -57,7 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Erreur chargement JSON :', error));
 
-    // Événements
     select.addEventListener('change', applyFilters);
     exclusiveToggle.addEventListener('change', applyFilters);
 });

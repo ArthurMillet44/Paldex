@@ -13,24 +13,16 @@
                 "passif3": {
                     "nom": "Légende",
                     "Description": "Attaque +20%, Defense +20% et Vitesse de déplacement +15%"
-                },
-                "passif4": {
-                    "nom": "Shenron",
-                    "Description": "Attaque +20%, Defense +20% et Vitesse de déplacement +15%"
-                },
-                "passif5": {
-                    "nom": "Sorcière",
-                    "Description": "Attaque +20%, Defense +20% et Vitesse de déplacement +15%"
-                },
-                "passif6": {
-                    "nom": "Trophée des flots",
-                    "Description": "Attaque +20%, Defense +20% et Vitesse de déplacement +15%"
                 }
             },
             "travail": {
                 "passif1": {
                     "nom": "Maîtrise exceptionnelle",
                     "Description": "Vitesse de travail +75%"
+                },
+                "passif2": {
+                    "nom": "Vampire",
+                    "Description": "Ne dort pas la nuit et récupère de la vie en fonction des dégats infligés"
                 }
             },
             "deplacement": {
@@ -140,7 +132,7 @@
                 },
                 "passif2": {
                     "nom": "Infatigable",
-                    "Description": "Endurance maximale +50.0% (Pals montures uniquement)"
+                    "Description": "Endurance maximale +50.0%"
                 }
             },
             "autre": {
@@ -277,6 +269,10 @@
                 "passif4": {
                     "nom": "Positif",
                     "Description": "Les points MEN diminuent plus lentement +10%"
+                },
+                "passif5": {
+                    "nom": "Frugal",
+                    "Description": "Le degré de satiété diminue plus lentement +10%"
                 }
             },
             "deplacement": {
@@ -287,10 +283,6 @@
                 "passif2": {
                     "nom": "Coursier",
                     "Description": "Vitesse de déplacement +20%"
-                },
-                "passif3": {
-                    "nom": "Frugal",
-                    "Description": "Le degré de satiété diminue plus lentement +10%"
                 }
             }
         }

@@ -10,7 +10,7 @@ function generateTop5(pals, statKey, containerId) {
   });
 
   const container = document.getElementById(containerId);
-  container.innerHTML = ''; // Vide la liste avant d'ajouter
+  container.innerHTML = '';
 
   let displayed = 0;
   let currentRank = 1;
@@ -46,7 +46,6 @@ function generateTop5(pals, statKey, containerId) {
   }
 }
 
-// Fonction pour créer et afficher le top 3 général
 function showTop3Modal(pals) {
   const scored = pals.map(pal => {
     let pv = parseFloat(pal.max_stats.pv.replace(',', '.'));
@@ -95,7 +94,6 @@ function showTop3Modal(pals) {
 
 let palsData = [];
 
-// Chargement des données depuis classement_combat.json
 fetch("classement_combat.json")
   .then(response => {
     if (!response.ok) throw new Error("Erreur lors du chargement du fichier JSON");
@@ -111,7 +109,6 @@ fetch("classement_combat.json")
     console.error("Erreur :", error);
   });
 
-// Création et gestion du bouton Podium + modal au chargement du DOM
 document.addEventListener("DOMContentLoaded", () => {
   const button = document.createElement("a");
   button.textContent = "Podium";
@@ -142,7 +139,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.body.appendChild(button);
 
-  // Création de la modal (invisible au début)
   const modal = document.createElement("div");
   modal.id = "top3-modal";
   modal.style.display = "none";

@@ -78,7 +78,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 modal.classList.remove('hidden');
 
-                // Onglets
                 const tabButtons = modalDetails.querySelectorAll('.tab-button');
                 const tabContents = modalDetails.querySelectorAll('.tab-content');
 
@@ -111,7 +110,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 palsList.appendChild(palCard);
             });
 
-            // Si un Pal doit être ouvert via sessionStorage
             const palToOpen = sessionStorage.getItem('openPalModal');
             if (palToOpen) {
                 const targetPal = data.find(p => p.nom === palToOpen);

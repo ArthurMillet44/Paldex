@@ -18,7 +18,7 @@
     "passives": []
   },
   {
-    "name": "Extracteur de pétrole",
+    "name": "Pompe à pétrole brut",
     "type":"structure",
     "quantity": 6,
     "passives": []

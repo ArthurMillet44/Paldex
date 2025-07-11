@@ -2,7 +2,7 @@ let palsData = [];
 
 document.addEventListener("DOMContentLoaded", async () => {
   try {
-    const response = await fetch("./classement_camp.json"); // adapte le chemin selon ton projet
+    const response = await fetch("./classement_camp.json");
     if (!response.ok) throw new Error("Erreur lors du chargement du fichier JSON");
 
     palsData = await response.json();
@@ -132,7 +132,6 @@ function applyFiltersAndRender() {
   const filtered = getFilteredPals();
   renderPalsByClassement(filtered);
 
-  // Mise à jour du titre <h2> selon la compétence sélectionnée
   const selectedCompetence = document.getElementById("competence-filter").value;
   const title = document.getElementById("ranking-title");
   if (title) {

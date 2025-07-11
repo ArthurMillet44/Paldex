@@ -29,12 +29,10 @@ function createTypeFilters() {
     container.appendChild(label);
   });
 
-  // Insère sous le titre principal (ex: h1)
   const h1 = document.querySelector("h1");
   if (h1 && h1.parentNode) {
     h1.parentNode.insertBefore(container, h1.nextSibling);
   } else {
-    // fallback : ajoute au body si aucun titre trouvé
     document.body.insertBefore(container, document.body.firstChild);
   }
 }
@@ -162,7 +160,6 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Erreur :", error);
     });
 
-  // Bouton Podium
   const button = document.createElement("a");
   button.textContent = "Podium";
   button.className = "btn-podium";
@@ -191,7 +188,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.body.appendChild(button);
 
-  // Création du modal
   const modal = document.createElement("div");
   modal.id = "top5-modal";
   Object.assign(modal.style, {

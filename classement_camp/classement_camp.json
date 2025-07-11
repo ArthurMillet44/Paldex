@@ -69,14 +69,14 @@
   },
   {
     "nom": "Vanwyrm",
-    "classement": 2,
+    "classement": 3,
     "vitesse": 700,
     "vitesse_transport": 475,
     "quantite_nourriture": 400,
     "nocturne": "oui",
     "competences": {"Transport": "3" },
     "autre_competences": {"Allumage": "Niveau 1"},
-    "description":"Je mets Vanwyrm à égalité avec Faleris car malgré des statistiques moins élevées il peut travailler la nuit ce qui lui offre en finalité un meilleur rendement."
+    "description":"Je mets Vanwyrm à égalité avec Knocklem car malgré des statistiques moins élevées il peut travailler la nuit."
   }
   ,
   {

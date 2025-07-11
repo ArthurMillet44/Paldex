@@ -12,7 +12,7 @@ html {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed; /* fait que l’image reste en place même si on scrolle */
+    background-attachment: fixed;
 }
 
 body {
@@ -21,14 +21,19 @@ body {
     color: #333;
     text-align: center;
     padding: 20px;
-    min-height: 100vh; /* garantit au moins la hauteur de la fenêtre */
-    background-color: transparent; /* s'assurer que le fond du body ne masque pas le html */
+    min-height: 100vh;
+    background-color: transparent;
 }
 
 
-h1, h2 {
+h1{
     margin-bottom: 20px;
     font-family: 'Brigsa', sans-serif;
+}
+
+h2{
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 p, option, select, label{
@@ -38,29 +43,29 @@ p, option, select, label{
 
 select, label.checkbox-wrapper {
     margin: 10px;
-    font-size: 14px; /* réduit la taille de police */
+    font-size: 14px;
 }
 
 .ranking-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px; /* moins d’espace entre les cartes */
+    gap: 10px;
 }
 
 .attack-card {
     background-color: #fff;
     border: 1px solid #010101;
     border-radius: 10px;
-    padding: 10px; /* moins de padding */
-    width: 250px; /* réduit la largeur */
+    padding: 10px;
+    width: 250px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-    font-size: 13px; /* réduit la taille de tout le texte */
+    font-size: 13px;
     transition: transform 0.2s;
 }
 
 .attack-card h2 {
-    font-size: 15px; /* réduit la taille des titres */
+    font-size: 15px;
     margin-bottom: 6px;
 }
 

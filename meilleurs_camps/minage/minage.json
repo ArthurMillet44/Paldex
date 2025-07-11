@@ -12,10 +12,10 @@
     "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
   },
   {
-    "name": "Vanwyrm",
+    "name": "Faleris",
     "type":"agri",
     "quantity": "6",
-    "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
+    "passives": ["Sprinter", "Coursier", "Légende", "Nocturne/Vampire"]
   },
   {
     "name": "Shroomer Noct",
@@ -24,7 +24,7 @@
     "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
   },
   {
-    "name": "Mine de métal 2",
+    "name": "Carrière de cuivre 2",
     "type":"structure",
     "quantity": 1,
     "passives": []
@@ -36,7 +36,7 @@
     "passives": []
   },
   {
-    "name": "Mine de quartz pur",
+    "name": "Carrière de quartz pur",
     "type":"structure",
     "quantity": 1,
     "passives": []
@@ -48,7 +48,7 @@
     "passives": []
   },
   {
-    "name": "Mine d'hexolite",
+    "name": "Mine d'hexoquartz",
     "type":"structure",
     "quantity": 1,
     "passives": []

@@ -25,7 +25,6 @@ fetch("minage.json")
 
   inner.appendChild(front);
 
-  // Vérifie s'il y a des passifs
   const hasPassives = Array.isArray(pal.passives) && pal.passives.length > 0;
 
   if (hasPassives) {
@@ -39,21 +38,17 @@ fetch("minage.json")
     `;
     inner.appendChild(back);
 
-    // Ajoute l'effet flip si passifs présents
     card.addEventListener("click", () => {
       card.classList.toggle("flipped");
     });
 
-    // Curseur pointer seulement si la carte est interactive
     card.style.cursor = "pointer";
   } else {
-    // Curseur par défaut sinon
     card.style.cursor = "default";
   }
 
   card.appendChild(inner);
 
-  // Ajout dans le bon conteneur
   if (pal.type === "agri") {
     agri_container.appendChild(card);
   } else if (pal.type === "ranch") {

@@ -38,15 +38,8 @@
   {
     "name": "Faleris",
     "type":"transport",
-    "quantity": 3,
+    "quantity": 5,
     "passives": ["Sprinter", "Coursier", "Légende", "Nocturne/Vampire"]
-  }
-  ,
-  {
-    "name": "Vanwyrm",
-    "type":"transport",
-    "quantity": 2,
-    "passives": ["Sprinter", "Coursier", "Légende", "Vif"]
   },
   {
     "name": "Vanwyrm Cryst",
