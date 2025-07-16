@@ -110,24 +110,3 @@ p {
         height: auto;
     }
 }
-
-#tips-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #222;
-    color: white;
-    padding: 10px;
-    font-size: 16px;
-    text-align: center;
-    z-index: 1000;
-}
-
-#tip-container {
-    animation: scroll-fade 0.5s ease-in-out;
-}
-
-@keyframes scroll-fade {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-}

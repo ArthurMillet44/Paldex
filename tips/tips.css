@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Brigsa';
+    src: url('fonts/Brigsa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Animals';
+    src: url('fonts/Animals-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gravis';
+    src: url('fonts/Gravis\ Free.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(https://fr.getfonts.net/allfont.css?fonts=courier-new);
+
+html {
+    background-image: url("../img/fond3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+body {
+    margin: 0;
+    font-family: 'Brigsa', sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: transparent;}
+
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+    font-family: 'Brigsa', sans-serif;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+p {
+    font-size: 1.1em;
+    color: white;
+    font-family: 'Courier New', arial;
+    font-family: 'Brigsa', sans-serif;
+}
+
+.tips-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.filter {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#type-select {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.tips-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tip-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #0077cc;
+    transition: transform 0.2s ease;
+}
+
+.tip-card:hover {
+    transform: scale(1.02);
+}
+
+.tip-type {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #0077cc;
+}
+
+.tip-text {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.btn-home {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.btn-home:hover {
+    background-color: #dadddf;
+}
