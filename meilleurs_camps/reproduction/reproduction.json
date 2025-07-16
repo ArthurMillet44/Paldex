@@ -14,7 +14,7 @@
   {
     "name": "Ranch",
     "type":"structure",
-    "quantity": "4-5",
+    "quantity": "6",
     "passives": []
   },
   {
@@ -37,6 +37,12 @@
   },
   {
     "name": "Pharmacie",
+    "type":"storage",
+    "quantity": 1,
+    "passives": []
+  },
+  {
+    "name": "Réfrigérateur",
     "type":"storage",
     "quantity": 1,
     "passives": []
@@ -122,7 +128,7 @@
   {
     "name": "Vanwyrm Cryst",
     "type":"agri",
-    "quantity": 1,
+    "quantity": 2,
     "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
   },
   {
@@ -151,8 +157,8 @@
   },
   {
     "name": "Coffre d'une civilisation avancée",
-    "type":"structure",
-    "quantity": "1",
+    "type":"storage",
+    "quantity": "2",
     "passives": []
   },
   {
@@ -188,19 +194,19 @@
   {
     "name": "Astegon",
     "type":"autre",
-    "quantity": 3,
+    "quantity": 2,
     "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
   },
   {
     "name": "Bushi Noct",
     "type":"autre",
-    "quantity": 3,
+    "quantity": 2,
     "passives": ["Maîtrise exceptionnelle", "Appliqué", "Soumis", "Sérieux"]
   },
   {
     "name": "Faleris",
     "type":"autre",
-    "quantity": 3,
+    "quantity": 4,
     "passives": ["Sprinter", "Coursier", "Légende", "Nocturne/Vampire"]
   }
 ]

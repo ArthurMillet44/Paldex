@@ -1,0 +1,54 @@
+[
+    {
+        "type":"Déplacement",
+        "tips":"La compétence partenaire de Xenolord lui permet d'augmenter sa vitesse de déplacement de 20% si activée. Il devient alors aussi rapide que Jetragon et 3 fois plus endurant."
+    },
+    {
+        "type":"Farm",
+        "tips":"La compétence partenaire de Omascul vous permet d'avoir un bonus de 20% d'xp pour les autres pals dans l'équipe."
+    },
+    {
+        "type":"Farm",
+        "tips":"La compétence partenaire de Smokie vous permet de trouver les framgents de chromites et boost la récole de ces derniers par 200%"
+    },
+    {
+        "type":"Farm",
+        "tips":"La compétence partenaire de Yakumo offre 30% de chance de transférer des passifs de Yakumo aux pals que vous capturez."
+    },
+    {
+        "type":"Déplacement",
+        "tips":"La compétence partenaire de Jormuntide lui donne une endurance infinie dans l'eau."
+    },
+    {
+        "type":"Combat",
+        "tips":"La compétence partenaire de Felbat vous permet de redonner à vous et  à Felbat 9% des dégats que vous infligez. Combiné au passif Vampire cela peut en faire un des meilleurs pals défensif."
+    },
+    {
+        "type":"Déplacement",
+        "tips":"La compétence partenaire de Kitsune vous permet d'ignorer le chaud et le froid lorsque vous le montez."
+    },
+    {
+        "type":"Combat",
+        "tips":"Les compétences partenaires de Sweepa et de 4 Swee vous permettent de booster de 132% l'attaque et de 96% la défense de Sweepa. Pareil pour Elizabee et 4 Beegarde."
+    },
+    {
+        "type":"Combat",
+        "tips":"La compétence partenaire de Gorirat lui confère +200% d'attaque quand il est appelé."
+    },
+    {
+        "type":"Déplacement",
+        "tips":"La compétence partenaire de Galeclaw augmente la vitesse de votre planeur quand il est dans l'équipe."
+    },
+    {
+        "type":"Farm",
+        "tips":"La compétence partenaire de Ribunny augmente la vitesse de production de 400% quand il travaille sur un établi ou usine pour armes."
+    },
+    {
+        "type":"Combat",
+        "tips":"La compétence partenaire de Gobfin augmenter l'attaque du joueur quand il est dans l'équipe."
+    },
+    {
+        "type":"Combat",
+        "tips":"Les compétences partenaires de pals comme Foxcicle, Ribunny Botan, etc, permettent d'augmenter de 20% l'attaque des pals du même type donc jusqu'à 100% avec 5 pals."
+    }
+]
